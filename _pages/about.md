@@ -3,12 +3,12 @@ layout: page
 permalink: /
 title: about
 nav: about
-description: <a href="http://www.ml.cmu.edu/" class="page-description" target="_blank">Machine Learning Department</a> • <a href="http://www.cs.cmu.edu/" class="page-description" target="_blank">School of Computer Science</a> • <a href="http://www.cmu.edu/" class="page-description" target="_blank">Carnegie Mellon University</a>
-address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Science/@40.4432641,-79.9449469,19.18z/data=!4m5!3m4!1s0x8834f22175d2f3cf:0x963e80aba7fde2d0!8m2!3d40.4435476!4d-79.9446184" class="page-description" target="_blank">8227 Gates Hillman Center, 5000 Forbes Ave, Pittsburgh, PA 15213</a>
+description: <a href="http://www.lti.cs.cmu.edu/" class="page-description" target="_blank">Language Technologies Institute</a> • <a href="http://www.cs.cmu.edu/" class="page-description" target="_blank">School of Computer Science</a> • <a href="http://www.cmu.edu/" class="page-description" target="_blank">Carnegie Mellon University</a>
+address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Science/@40.4432641,-79.9449469,19.18z/data=!4m5!3m4!1s0x8834f22175d2f3cf:0x963e80aba7fde2d0!8m2!3d40.4435476!4d-79.9446184" class="page-description" target="_blank">Gates Hillman Center, 5000 Forbes Ave, Pittsburgh, PA 15213</a>
 ---
 
 <div class="col p-0 pt-4 pb-4">
-  <h1 class="pb-3 title text-left font-weight-bold">Otilia Stretcu</h1>
+  <h1 class="pb-3 title text-left font-weight-bold">Rishabh Joshi</h1>
   <h6 class="m-0 mb-2" style="font-size: 0.83em;">{{ page.description }}</h6>
   {% if page.address %}
       <h6 class="m-0 mb-2" style="font-size: 0.83em;">{{ page.address }}</h6>
@@ -24,25 +24,21 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </div>
 
         <p>
-            I am a PhD student in the <a href="http://www.ml.cmu.edu/" target="_blank">Machine Learning Department</a> at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>, co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank">Tom Mitchell</a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank">Barnabàs Pòczos</a>.
+	I am a MLT (Master's in Language Technologies) student in the <a href="http://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a>, <a href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a> at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>, co-advised by <a href="http://www.cs.cmu.edu/~awb/" target="_blank">Alan W Black</a>, <a href="http://www.cs.cmu.edu/~ytsvetko/" target="_blank">Yulia Tsvetkov</a> and <a href="http://www.cs.cmu.edu/~air/" target="_blank">Alex Rudnicky</a>.
         </p>
         
         <p>
-            My PhD research focuses on developing algorithms for machine learning, mainly focused on semi-supervised, curriculum learning, and graph-based problems.
-            I am also passionate about applying machine learning methods in neuroscience, in order to study how the brain understands language and controls speech.
-            Previously, I did some research in Computer Vision, with the goal of detecting and tracking objects in videos.
+	My research focuses on developing algorithms for machine learning and applying my methods in order to study how machines can mimic humans in congitive tasks, especially those related to Language. My main research project with Alan and Yulia is on negotiation and persuasion in dialogue systems where we are trying to understand the qualities of good/bad sellers/persuaders. We are also trying to build a system that can suggest optimum <i>strategies</i> for a favourable outcome.
+	Under Alex, I'm working with CMU's team for the Amazon Alexa Challenge, 2020. 
         </p>
+
+	<p>
+    Before I joined CMU, I worked in Samsung Research Institute, Bangalore, India where I was working in the Voice Intelligence Team on dialogue systems and chat-bots. Before that, I spent a wonderful semester working with <a href="http://talukdar.net" target="_blank">Partha Talukdar</a> at <a href="http://malllabiisc.github.io/" target="_blank">Machine and Language Learning (MALL) Lab</a> in the <a href="https://www.iisc.ac.in/" target="_blank">Indian Institute of Science, Bangalore</a>. I graduated with a B.Eng. in Computer Science from <a href="http://www.bits-pilani.ac.in/pilani/" target="_blank">Birla Institute of Technology and Science, Pilani</a>, India.
+    In my Bachelor's thesis, I worked on incorporating external knowledge in distantly supervised neural relation extraction methods as part of iNELL (which is based on <a href='http://rtw.ml.cmu.edu/rtw/' target='_blank'>NELL</a>).
+	</p>
     </div>
 </div>
 
-<div class="col text-justify p-0">
-    <p>
-        Before I joined CMU, I graduated with an <a href="https://www.cst.cam.ac.uk/admissions/acs" target="_blank">M.Phil. in Advanced Computer Science</a>
-        from the <a href="https://www.cam.ac.uk/" target="_blank">University of Cambridge</a>, UK.
-        In my Master's thesis I used Machine Learning methods to detect and align chromosomes in microscope images,
-        advised by <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank">Pietro Lió</a>.
-    </p>
-</div>
 
 <!-- News -->
 <div class="news mt-3 p-0">
@@ -51,7 +47,7 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
   {% for item in news limit: site.news_limit %}
     <div class="row p-0">
       <div class="col-sm-2 p-0">
-        <span class="badge light-green darken-1 font-weight-bold text-uppercase align-middle date ml-3">
+        <span class="badge danger-color-dark darken-1 font-weight-bold text-uppercase align-middle date ml-3">
           {{ item.date | date: "%b %-d, %Y" }}
         </span>
       </div>

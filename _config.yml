@@ -2,8 +2,9 @@
 # Site Settings
 # -----------------------------------------------------------------------------
 
-name: Otilia Stretcu
-email: otiliastr@gmail.com
+name: Rishabh Joshi
+email: rishabhjoshi0407@gmail.com
+description: Personal website of Rishabh Joshi.
 
 # footer_text: >
 #   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -16,11 +17,11 @@ baseurl:  # the subpath of your site, e.g. /blog/
 # -----------------------------------------------------------------------------
 # Social Integration
 # -----------------------------------------------------------------------------
-scholar_userid: UcT4CXoAAAAJ
-github_username: otiliastr
-linkedin_username: otiliastr
-facebook_username: otilia.stretcu
-twitter_username: otilia_stretcu
+scholar_userid: vu2pNVAAAAAJ
+github_username: rishabhjoshi 
+linkedin_username: joshi-rishabh 
+facebook_username: rishabh.joshi.047
+twitter_username: rishabh_joshi4
 contact_note: Feel free to drop me a line via e-mail.
 
 
@@ -46,7 +47,7 @@ contact_note: Feel free to drop me a line via e-mail.
 # disqus_shortname: al-folio # put your disqus shortname
 
 # # Optional features
-# show_social_icons:  false
+show_social_icons:  true
 # enable_anchorjs:    false
 # enable_katex:       true
 
@@ -84,7 +85,7 @@ plugins:
 
 # Jekyll-Scholar
 scholar:
-  last_name: Stretcu
+  last_name: Joshi
   style: apa
   locale: en
   sort_by: year

@@ -39,3 +39,6 @@ JNeurosci:
 
 HBM:
   url: https://www.humanbrainmapping.org
+
+EMNLP2018:
+  url: http://emnlp2018.org/

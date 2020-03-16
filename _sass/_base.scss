@@ -22,6 +22,7 @@ $lime_green:    #B7D12A;
 $purple:        #B509AC;
 $brown_orange:  #C68646;
 $web_green:     #7cb342;
+$danger_dark:     #b71c1c;
 
 
 $grey-color-dark:   #333;  /* footer */
@@ -29,7 +30,7 @@ $grey-color-light:  #ddd;  /* navigation bar border */
 $text-color:        rgb(60, 72, 88); /* #666; */
 
 /* Set theme color *************************/
-$theme-color: $web_green; /* #b71c1c; */
+$theme-color: $danger_dark; /* #b71c1c; */
 $background-color: #fdfdfd;
 
 /************************************************************/
@@ -279,7 +280,7 @@ progress::-moz-progress-bar {
 .bibliography-year {
     color: #ddd;
     text-align: right;
-    float: right;
+    //float: right;
 }
 
 .bibliography {
@@ -298,12 +299,17 @@ progress::-moz-progress-bar {
                     text-decoration: none;
                 }
             }
+    	    nobr > em {
+	        font-weight: bold;
+	        font-style: normal;
+	        color: $theme-color;
+	    }
         }
     }
 }
 
-nobr > em {
-    font-weight: bold;
-    font-style: normal;
-    color: $theme-color;
-}
+// nobr > em {
+//     font-weight: bold;
+//     font-style: normal;
+//     color: $theme-color;
+// }
