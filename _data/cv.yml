@@ -2,44 +2,33 @@
   type: map
   contents:
   - name: Full Name
-    value: Otilia Stretcu
+    value: Rishabh Joshi
   - name: Contact
-    value: otiliastr [at] gmail [dot] com
+    value: rishabhjoshi0407 [at] gmail [dot] com
   - name: Languages
-    value: Romanian (native), English (fluent), German (beginner), Spanish (beginner), Swedish (beginner)
+    value: Hindi (native), English (fluent), Marwari (beginner), Punjabi (beginner), Sanskrit (beginner)
 
 - title: Research Areas
   type: list
   contents:
-  - My PhD research focuses on developing machine learning methods applied in neuroscience, with the goal of understanding how the brain understands language and controls speech.
-  - I am also passionate about drawing inspiration from the human brain and intuition in order to develop new methods for machine learning (mainly focused on semi-supervised and curriculum learning).
-  - I am also interested in creating AI agents that can understand language and reason, therefore I have also worked on natural language processing with a focus on question answering and problem solving.
+  - My research focuses on developing algorithms for machine learning and applying my methods in order to study how machines can mimic humans in congitive tasks, especially those related to Language.
+  - I am also interested in creating AI agents that can understand language and reason, therefore I have also worked on natural language processing with a focus on negotiation, persuasion, dialogue and question answering.
 
 - title: Education
   type: table
   contents:
-  - title: Carnegie Mellon University – Ph.D. in Machine Learning
-    year: 2015 - now
+  - title: Carnegie Mellon University – Master in Language Technologies
+    year: 2019 - now
     location: USA
     description:
-    - 'Co-advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
-    - 'GPA: 4.0 (4.0 scale)'
-  - title: University of Cambridge – Master of Philosophy (M.Phil.) in Advanced Computer Science
-    year: 2014 - 2015
-    location: UK
+            - 'Co-advised by <a href="http://www.cs.cmu.edu/~awb/" target="_blank"><b>Prof. Alan W. Black</b></a>, <a href="http://www.cs.cmu.edu/~ytsvetko/" target="_blank"><b>Prof. Yulia Tsvetkov</b></a> and <a href="http://www.cs.cmu.edu/~air/" target="_blank"><b>Prof. Alexander Rudnicky</b></a>'
+  - title: Birla Institute of Technology and Science, Pilani – Bachelor of Engg. (Hons.) in Computer Science
+    year: 2014 - 2018
+    location: India
     description:
-    - 'Advised by <a href="https://www.cl.cam.ac.uk/~pl219/" target="_blank"><b>Prof. Pietro Lió</b></a>'
-    - 'Thesis: Machine Learning Methods for Computational Microscopy'
-    - 'Grade: Pass with Distinction'
-  - title: <b>Linköping University – Erasmus Exchange Student</b>
-    year: 2012 - 2013
-    location: Sweden
-  - title: Politehnica University of Timisoara – B.Eng. in Computer Science and Information Technology
-    year: 2010 - 2014
-    location: Romania
-    description:
-    - 'GPA: 9.98 (scale 10.0)'
-    - '1<sup>st</sup> out of 140 students'
+    - 'Thesis advised by <a href="https://www.talukdar.net/" target="_blank"><b>Prof. Partha Talukdar</b></a> at IISc Bangalore'
+    - 'Thesis: Improving Distantly Supervised Neural Relation Extraction using Side Information'
+    - 'GPA: 9.28 (10.0 scale)'
 
 - title: Work Experience
   type: table
