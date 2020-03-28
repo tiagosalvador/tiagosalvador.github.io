@@ -42,7 +42,7 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
 
 <!-- News -->
 <div class="news mt-3 p-0">
-  <h1 class="title mb-4 p-0">News</h1>
+  <h3 class="title mb-4 p-0">News</h3>
   {% assign news = site.news | reverse %}
   {% for item in news limit: site.news_limit %}
     <div class="row p-0">

@@ -33,6 +33,11 @@
 - title: Work Experience
   type: table
   contents:
+  - title: 'Software Research Engineer'
+    year: Jul 2018 - Aug 2019
+    location: Bangalore, India
+    description:
+    - 'Part of the NLU team in Voice Intelligence division working on low resource intent classification and slot tagging solutions. Also worked on an open domain chit chat system'
   - title: 'Software Engineering Intern at Google Research'
     year: 'Summer 2018 <br/> &emsp;  & <br/> Spring 2019'
     location: USA
