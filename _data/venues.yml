@@ -40,5 +40,8 @@ JNeurosci:
 HBM:
   url: https://www.humanbrainmapping.org
 
-EMNLP2018:
+EMNLP18:
   url: http://emnlp2018.org/
+
+LREC20:
+  url: https://lrec2020.lrec-conf.org/en/

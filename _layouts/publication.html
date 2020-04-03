@@ -102,6 +102,9 @@
         {% if entry.code %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.code }}" target="_blank">Code</a>
         {% endif %}
+        {% if entry.video%}
+          <a class="badge grey waves-effect font-weight-light mr-1" href="{{ entry.video}}" target="_blank">Video</a>
+        {% endif %}
         {% if entry.arxiv %}
           <a class="badge grey waves-effect font-weight-light mr-1" href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>
         {% endif %}
