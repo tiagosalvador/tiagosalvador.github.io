@@ -33,29 +33,39 @@
 - title: Work Experience
   type: table
   contents:
-  - title: 'Software Research Engineer'
-    year: Jul 2018 - Aug 2019
+  - title: 'Graduate Research Assistant at CMU'
+    year: 'Sep 19 - now'
+    location: Pittsburgh, PA
+    description:
+            - "Building a non-collaborative dialogue coach for effective negotiation and persuasion. Working on trying to incorporate personality and style aspects to make negotiation systems better. Specifically, I'm trying to study what makes someone better at negotiation and persuasion and how can we generate text which is more effective for the final outcome. I am also working on incorporating knowledge into a negotiation system. "
+            - "With Alex, I'm working on CMU's team for the Amazon Alexa Challenge 2020."
+  - title: 'Research Software Engineer at Samsung Research India'
+    year: 'Jul 18 - Aug 19'
     location: Bangalore, India
     description:
-    - 'Part of the NLU team in Voice Intelligence division working on low resource intent classification and slot tagging solutions. Also worked on an open domain chit chat system'
-  - title: 'Software Engineering Intern at Google Research'
-    year: 'Summer 2018 <br/> &emsp;  & <br/> Spring 2019'
-    location: USA
-    description:
-    - '<a href="https://ai.googleblog.com/2016/10/graph-powered-machine-learning-at-google.html" target="_blank"><b>Expander team</b></a> in <a href="https://ai.google/research/" target="_blank"><b>Google Research</b></a> , Mountain View, CA, USA'
-    - 'Research in semi-supervised learning combining deep learning and graphs.'
-  - title: 'Software Engineering Intern at Google X'
-    year: Summer 2016
-    location: USA
-    description:
-    - '<a href="https://www.google.com/selfdrivingcar/" target="_blank"><b>Self-Driving Car team</b></a> in <a href="https://x.company/" target="_blank"><b>Google X</b></a> , Mountain View, CA, USA'
-    - 'Undisclosed Machine Learning projects for the Google self-driving car.'
-  - title: 'Software Developer Intern at Microsoft'
-    year: Summer 2014
-    location: USA
-    description:
-    - '<a href="https://www.microsoft.com/en-us/windows/cortana" target="_blank"><b>Cortana team</b></a> at <a href="https://www.microsoft.com/en-us/" target="_blank"><b>Microsoft Corporation</b></a>, Redmond, WA, USA'
-    - 'Undisclosed Machine Learning project for Cortana, Windows Phone’s digital personal assistant.'
+    - "Improved open domain dialogue systems using side information and contextual knowledge." 
+    - "Also constructed a low resource intent classification and speaker recognition solutions which will be incorporated in an upcoming product of Samsung."
+  # - title: 'Software Engineering Intern at Google Research'
+  #   year: 'Summer 2018 <br/> &emsp;  & <br/> Spring 2019'
+  #   location: USA
+  #   description:
+  #   - '<a href="https://ai.googleblog.com/2016/10/graph-powered-machine-learning-at-google.html" target="_blank"><b>Expander team</b></a> in <a href="https://ai.google/research/" target="_blank"><b>Google Research</b></a> , Mountain View, CA, USA'
+    # - 'Research in semi-supervised learning combining deep learning and graphs.'
+- title: 'Undergraduate Thesis (Advisor : Prof. <a href="http://talukdar.net" target="_blank"><b>Partha Talukdar</b></a>)'
+  year: 'Jan - Jul 18'
+  location: Bangalore, India
+  description:
+         - "Worked on the problem of Distantly-Supervised Relation Extraction where we proposed a novel solution using Graph Convolution Networks and information from external knowledge sources."
+- title: Summer Intern at Samsung Research India
+  year: Summer 2017
+  location: Bangalore, India
+  description: 
+        - "Constructed tools for packet generation and distributed analysis for the data link layer of 5G protocol."
+- title: Research Intern at IIRS, ISRO
+  year: Summer 2016
+  location: Dehradun, India
+  description: 
+        - "Developed core API and execution engine of the DataCube for the effective storage, retrieval and analysis of large earth observation datasets using Python and ideas from distributed and parallel computing."
 
 
 - title: Research Experience
