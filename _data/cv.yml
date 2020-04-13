@@ -51,68 +51,68 @@
   #   description:
   #   - '<a href="https://ai.googleblog.com/2016/10/graph-powered-machine-learning-at-google.html" target="_blank"><b>Expander team</b></a> in <a href="https://ai.google/research/" target="_blank"><b>Google Research</b></a> , Mountain View, CA, USA'
     # - 'Research in semi-supervised learning combining deep learning and graphs.'
-- title: 'Undergraduate Thesis (Advisor : Prof. <a href="http://talukdar.net" target="_blank"><b>Partha Talukdar</b></a>)'
-  year: 'Jan - Jul 18'
-  location: Bangalore, India
-  description:
-         - "Worked on the problem of Distantly-Supervised Relation Extraction where we proposed a novel solution using Graph Convolution Networks and information from external knowledge sources."
-- title: Summer Intern at Samsung Research India
-  year: Summer 2017
-  location: Bangalore, India
-  description: 
-        - "Constructed tools for packet generation and distributed analysis for the data link layer of 5G protocol."
-- title: Research Intern at IIRS, ISRO
-  year: Summer 2016
-  location: Dehradun, India
-  description: 
-        - "Developed core API and execution engine of the DataCube for the effective storage, retrieval and analysis of large earth observation datasets using Python and ideas from distributed and parallel computing."
+  - title: 'Undergraduate Thesis (Advisor : Prof. <a href="http://talukdar.net" target="_blank"><b>Partha Talukdar</b></a>)'
+    year: 'Jan - Jul 18'
+    location: Bangalore, India
+    description:
+    - "Worked on the problem of Distantly-Supervised Relation Extraction where we proposed a novel solution using Graph Convolution Networks and information from external knowledge sources."
+  - title: Summer Intern at Samsung Research India
+    year: Summer 2017
+    location: Bangalore, India
+    description: 
+    - "Constructed tools for packet generation and distributed analysis for the data link layer of 5G protocol."
+  - title: Research Intern at IIRS, ISRO
+    year: Summer 2016
+    location: Dehradun, India
+    description: 
+    - "Developed core API and execution engine of the DataCube for the effective storage, retrieval and analysis of large earth observation datasets using Python and ideas from distributed and parallel computing."
 
 
-- title: Research Experience
-  type: table
-  contents:
-  - title: 'Machine Learning for understanding how the brain produces speech'
-    year: 2017 - now
-    location: USA
-    description:
-    - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
-    - 'Advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
-    - 'Developing Machine Learning models that analyze neural activity signals (ECoG and Local Field Potentials) in order to understand how different properties of speech are represented in the brain, which can have major consequences for the treatment of many neurological disorders, such as Parkinson’s disease.'
-  - title: 'Monte Carlo methods for question answering'
-    year: 2018
-    location: USA
-    description:
-    - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
-    - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
-    - 'Using Monte Carlo Tree Search to answer natural language questions, using background knowledge represented as a graph.'
-  - title: 'Machine Learning for understanding meaning representation in the brain'
-    year: 2016 - 2017
-    location: USA
-    description:
-    - 'Carnegie Mellon University, Pittsburgh, PA, USA'
-    - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a> and <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>'
-    - 'Developed Machine Learning models that combine neural activity time series of different modalities. The goal was to use brain activity recordings, such as fMRI, EEG and MEG, to understand how the brain processes language. I focused on Deep Learning models, such as recurrent neural networks.'
-  - title: 'Computer Vision for unsupervised object discovery in video'
-    year: 2014 - 2015
-    location: Romania
-    description:
-    - 'Carnegie Mellon University, Pittsburgh, PA, USA'
-    - 'Advised by <a href="https://sites.google.com/site/mariusleordeanu/home" target="_blank"><b>Dr. Marius Leordeanu</b></a>'
-    - 'Unsupervised object discovery in video based on multiple frames matching. We also proposed a fast method for detecting the main object of interest in a video, titled VideoPCA.'
-  - title: 'Research Internship in Machine Learning at EPFL'
-    year: Summer 2013
-    location: Switzerland
-    description:
-    - 'École Polytechnique Fédérale de Lausanne, Laboratory for Probabilistic Machine Learning'
-    - 'Advised by <a href="https://www.linkedin.com/in/matthias-seeger-3010b765" target="_blank"><b>Dr. Matthias Seeger</b></a>'
-    - 'Used topic models to explore the correlation between social media messages from Twitter and the location of the users, with applications to user profiling, topic tracking and content recommendation. I was responsible with applying various machine learning models and parallelizing the code in order to scale well.'
-  - title: 'Research for Undergraduates Program'
-    year: Summer 2013
-    location: Romania
-    description:
-    - 'Politehnica University of Timisoara, Romania'
-    - 'Advised by <b>Prof. Emilia Petrisor</b>'
-    - 'Implemented algorithms for spectral clustering of nodes in a graph, based on minimum graph cut, with applications to data mining and statistics, such as clustering information from documents on the web and medical images segmentation.'
+# - title: Research Experience
+#   type: table
+#   contents:
+#   - title: 'Machine Learning for understanding how the brain produces speech'
+#     year: 2017 - now
+#     location: USA
+#     description:
+#     - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
+#     - 'Advised by <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a> and <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
+#     - 'Developing Machine Learning models that analyze neural activity signals (ECoG and Local Field Potentials) in order to understand how different properties of speech are represented in the brain, which can have major consequences for the treatment of many neurological disorders, such as Parkinson’s disease.'
+#   - title: 'Monte Carlo methods for question answering'
+#     year: 2018
+#     location: USA
+#     description:
+#     - 'Carnegie Mellon University,  Pittsburgh, PA, USA'
+#     - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a>'
+#     - 'Using Monte Carlo Tree Search to answer natural language questions, using background knowledge represented as a graph.'
+#   - title: 'Machine Learning for understanding meaning representation in the brain'
+#     year: 2016 - 2017
+#     location: USA
+#     description:
+#     - 'Carnegie Mellon University, Pittsburgh, PA, USA'
+#     - 'Advised by <a href="http://www.cs.cmu.edu/~bapoczos/" target="_blank"><b>Dr. Barnabàs Pòczos</b></a> and <a href="http://www.cs.cmu.edu/~tom/" target="_blank"><b>Prof. Tom M. Mitchell</b></a>'
+#     - 'Developed Machine Learning models that combine neural activity time series of different modalities. The goal was to use brain activity recordings, such as fMRI, EEG and MEG, to understand how the brain processes language. I focused on Deep Learning models, such as recurrent neural networks.'
+#   - title: 'Computer Vision for unsupervised object discovery in video'
+#     year: 2014 - 2015
+#     location: Romania
+#     description:
+#     - 'Carnegie Mellon University, Pittsburgh, PA, USA'
+#     - 'Advised by <a href="https://sites.google.com/site/mariusleordeanu/home" target="_blank"><b>Dr. Marius Leordeanu</b></a>'
+#     - 'Unsupervised object discovery in video based on multiple frames matching. We also proposed a fast method for detecting the main object of interest in a video, titled VideoPCA.'
+#   - title: 'Research Internship in Machine Learning at EPFL'
+#     year: Summer 2013
+#     location: Switzerland
+#     description:
+#     - 'École Polytechnique Fédérale de Lausanne, Laboratory for Probabilistic Machine Learning'
+#     - 'Advised by <a href="https://www.linkedin.com/in/matthias-seeger-3010b765" target="_blank"><b>Dr. Matthias Seeger</b></a>'
+#     - 'Used topic models to explore the correlation between social media messages from Twitter and the location of the users, with applications to user profiling, topic tracking and content recommendation. I was responsible with applying various machine learning models and parallelizing the code in order to scale well.'
+#   - title: 'Research for Undergraduates Program'
+#     year: Summer 2013
+#     location: Romania
+#     description:
+#     - 'Politehnica University of Timisoara, Romania'
+#     - 'Advised by <b>Prof. Emilia Petrisor</b>'
+#     - 'Implemented algorithms for spectral clustering of nodes in a graph, based on minimum graph cut, with applications to data mining and statistics, such as clustering information from documents on the web and medical images segmentation.'
 
 - title: Honors and Awards
   type: table
@@ -164,7 +164,7 @@
   contents:
   - '○ Programming languages: C, C++, Python, Matlab, Java.'
   - '○ Data Structures and Algorithms: Familiarity with concepts used in algorithmic competitions and machine learning research.'
-  - '○ Frameworks: Tensorflow, NumPy, SciPy, Pandas.'
+  - '○ Frameworks: Pytorch, Tensorflow, NumPy, SciPy, Pandas.'
   - '○ Database Systems: MySQL.'
 
 - title: Technical Projects
