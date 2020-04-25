@@ -136,28 +136,21 @@
 #     - '<b>Romanian National Olympiad in Informatics</b>: Gold Medal (2008), Bronze Medal (2010), 1<sup>st</sup> Place (2004), 2<sup>nd</sup> Place (2005), Honorable Mention (2010, 2008, 2007, 2003)'
 #     - 'Kangaroo International Mathematical Competition: 2<sup>nd</sup> prize in Romanian National Finals (2009, 2010)'
 
-# - title: Teaching Experience
-#   type: table
-#   contents:
-#   - title: '<b>Teaching Assistant</b> for <b>Graduate Machine Learning</b>'
-#     year: Spring 2018
-#     location: USA
-#     description:
-#     - Graduate level introduction to machine learning class <a href="http://www.cs.cmu.edu/~pradeepr/courses/701/2018-spring/" target="_blank"><b>10-701 Graduate Machine Learning</b></a> at Carnegie Mellon University
-#     - Taught by <a href="https://www.cs.cmu.edu/~pradeepr/" target="_blank"><b>Prof. Pradeep Ravikumar</b></a> and <a href="https://www.cs.cmu.edu/~mmv/" target="_blank"><b>Prof. Manuela Veloso</b></a>
-#     - I was awarded a Machine Learning Department <a href="https://www.ml.cmu.edu/news/news-archive/2018/may/machine-learning-ta-awards-2018.html" target="_blank"><b>Teaching Assistant Award</b></a>
-#   - title: '<b>Teaching Assistant</b> for <b>Topics in Deep Learning</b>'
-#     year: Fall 2017
-#     location: USA
-#     description:
-#     - Graduate level deep learning class <a href="http://www.cs.cmu.edu/~rsalakhu/10707/" target="_blank"><b>10-707 Topics in Deep Learning</b></a> at Carnegie Mellon University
-#     - Taught by <a href="https://www.cs.cmu.edu/~rsalakhu/" target="_blank"><b>Prof. Ruslan Salakhutdinov</b></a>
-#   - title: 'Teaching algorithms for competitive programming'
-#     year: 2013-14
-#     location: Romania
-#     description:
-#     - Co-organized a competitive programming seminar at Politehnica University of Timisoara for university and high-school students interested to train for algorithmic competitions (e.g. ACM-ICPC, informatics olympiad).
-#     - Taught algorithms and data structures used in competitive programming, designed and solved practice problems and internal competitions.
+- title: Teaching Experience
+  type: table
+  contents:
+  - title: '<b>Teaching Assistant</b> for <b>Applied Machine Learning</b>'
+    year: Spring 2020
+    location: USA
+    description:
+    - Undergraduate/Graduate-level introduction to machine learning course in an application focused way, taught by <a href="https://www.cs.cmu.edu/~cprose/" target="_blank">Prof. Carolyn Rose</a> at Carnegie Mellon University.
+    - I mentored groups of students working on class projects and graded homeworks.
+  - title: '<b>Teaching Assistant</b> for <b>Data Structures and Algorithms</b>'
+    year: Spring 2017
+    location: India
+    description:
+    - Undergraduate level introduction course to Data Structures and Algorithms taught by <a href="http://www.bits-pilani.ac.in/pilani/sundarb/profile" target="_blank">Prof. Sundar S Balasubramaniam</a>.
+    - I helmed two lab sections and was the jury fo rthe online judge with the responsibility of assisting 200+ students.
 
 - title: Computer skills
   type: list
