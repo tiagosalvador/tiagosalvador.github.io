@@ -45,3 +45,9 @@ EMNLP18:
 
 LREC20:
   url: https://lrec2020.lrec-conf.org/en/
+
+SEMEVAL20:
+  url: http://alt.qcri.org/semeval2020/
+
+ALEXA20:
+  url: https://developer.amazon.com/alexaprize/challenges/current-challenge/
