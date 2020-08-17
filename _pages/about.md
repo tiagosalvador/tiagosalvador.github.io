@@ -28,8 +28,8 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </p>
         
         <p>
-	My research focuses on developing algorithms for machine learning and applying my methods in order to study how machines can mimic humans in congitive tasks, especially those related to Language. My main research project with Alan and Yulia is on negotiation and persuasion in dialogue systems where we are trying to understand the qualities of good/bad sellers/persuaders. We are also trying to build a system that can suggest optimum <i>strategies</i> for a favourable outcome.
-	Under Alex, I'm working with CMU's team for the Amazon Alexa Challenge, 2020. 
+	My research focuses on developing algorithms for machine learning and applying my methods in order to study how machines can mimic humans in congitive tasks, especially those related to Language. My research with Alan and Yulia focuses on negotiation and persuasion in dialogue systems where we are trying to understand the qualities of good/bad sellers/persuaders and including explicit strategy sequence information to build a system that can negotiate better. 
+	With Alex, I worked with CMU's team, Tartan, on the Amazon Alexa Challenge, 2020 and we managed to reach the semi-finals. With him, I'm also working on studying coherence in dialogue and on asking the right questions, by using external knowledge to augment the models.
         </p>
 
 	<p>
