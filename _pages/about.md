@@ -24,12 +24,16 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
         </div>
 
         <p>
-	I am a MLT (Master's in Language Technologies) student in the <a href="http://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a>, <a href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a> at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>, co-advised by <a href="http://www.cs.cmu.edu/~awb/" target="_blank">Alan W Black</a>, <a href="http://www.cs.cmu.edu/~ytsvetko/" target="_blank">Yulia Tsvetkov</a> and <a href="http://www.cs.cmu.edu/~air/" target="_blank">Alex Rudnicky</a>.
+	I am a second year MLT (Master's in Language Technologies) student in the <a href="http://www.lti.cs.cmu.edu/" target="_blank">Language Technologies Institute</a>, <a href="http://www.cs.cmu.edu/" target="_blank">School of Computer Science</a> at <a href="http://www.cmu.edu/" target="_blank">Carnegie Mellon University</a>, co-advised by <a href="http://www.cs.cmu.edu/~awb/" target="_blank">Alan W Black</a>, <a href="http://www.cs.cmu.edu/~ytsvetko/" target="_blank">Yulia Tsvetkov</a> and <a href="http://www.cs.cmu.edu/~air/" target="_blank">Alex Rudnicky</a>. I'm also a member of <a href="https://tsvetshop.github.io/" target="_blank">Tsvetshop</a>.
         </p>
         
         <p>
-	My research focuses on developing algorithms for machine learning and applying my methods in order to study how machines can mimic humans in congitive tasks, especially those related to Language. My research with Alan and Yulia focuses on negotiation and persuasion in dialogue systems where we are trying to understand the qualities of good/bad sellers/persuaders and including explicit strategy sequence information to build a system that can negotiate better. 
-	With Alex, I worked with CMU's team, Tartan, on the Amazon Alexa Challenge, 2020 and we managed to reach the semi-finals. With him, I'm also working on studying coherence in dialogue and on asking the right questions, by using external knowledge to augment the models.
+	My research focuses on developing algorithms for machine learning and applying my methods in order to study how machines can mimic humans in congitive tasks, especially those related to Language. My research with Alan and Yulia focused on negotiation and persuasion in dialogue systems where we are trying to understand the qualities of good/bad sellers/persuaders and including explicit strategy sequence information to build a system that can negotiate better. 
+	With Alex, I worked with CMU's team, Tartan, on the Amazon Alexa Challenge, 2020 and we managed to reach the semi-finals. I also studyed coherence in dialogue and the right questions to ask for better engagement, by using external knowledge to augment the models.
+        </p>
+
+        <p>
+        Right now, my focus is on low resource NLP and exploring knowledge proliferation. We are exploring adapter based approaches for multilingual summarization. I'm also working on understanding and profiling important concepts in academic publications, which can later be used to study evolution of science.
         </p>
 
 	<p>

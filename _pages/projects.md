@@ -3,7 +3,7 @@ layout: page
 title: Projects
 nav: projects
 permalink: /projects/
-description: some of the projects I have worked on
+description: see my cv (pdf) for updated list
 ---
 
 <div id="projects" class="row mt-2 pt-3" style="overflow: visible !important;">

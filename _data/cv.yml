@@ -13,22 +13,26 @@
   contents:
   - My research focuses on developing algorithms for machine learning and applying my methods in order to study how machines can mimic humans in congitive tasks, especially those related to Language.
   - I am also interested in creating AI agents that can understand language and reason, therefore I have also worked on natural language processing with a focus on negotiation, persuasion, dialogue and question answering.
+  - I am passionate about focusing my efforts in advancing low resource NLP and I am specifically working on multilingual summarization. 
+  - I also like to think about knowledge and knowledge proliferation in our society.
 
 - title: Education
   type: table
   contents:
   - title: Carnegie Mellon University – Master in Language Technologies
-    year: 2019 - now
+    year: Aug 2021
     location: USA
     description:
             - 'Co-advised by <a href="http://www.cs.cmu.edu/~awb/" target="_blank"><b>Prof. Alan W. Black</b></a>, <a href="http://www.cs.cmu.edu/~ytsvetko/" target="_blank"><b>Prof. Yulia Tsvetkov</b></a> and <a href="http://www.cs.cmu.edu/~air/" target="_blank"><b>Prof. Alexander Rudnicky</b></a>'
+            - 'GPA: 3.94 / 4.33'
+            - 'PhD level Courses: Intro to ML, Algos for NLP, NN for NLP, Ethics and Propaganda in NLP, Deep RL, Multilingula NLP, Dialogue Seminar'
   - title: Birla Institute of Technology and Science, Pilani – Bachelor of Engg. (Hons.) in Computer Science
     year: 2014 - 2018
     location: India
     description:
     - 'Thesis advised by <a href="https://www.talukdar.net/" target="_blank"><b>Prof. Partha Talukdar</b></a> at IISc Bangalore'
     - 'Thesis: Improving Distantly Supervised Neural Relation Extraction using Side Information'
-    - 'GPA: 9.28 (10.0 scale)'
+    - 'GPA: 9.28 / 10.00'
 
 - title: Work Experience
   type: table
@@ -37,14 +41,17 @@
     year: 'Sep 19 - now'
     location: Pittsburgh, PA
     description:
-            - "Building a non-collaborative dialogue coach for effective negotiation and persuasion. Working on trying to incorporate personality and style aspects to make negotiation systems better. Specifically, I'm trying to study what makes someone better at negotiation and persuasion and how can we generate text which is more effective for the final outcome. I am also working on incorporating knowledge into a negotiation system. "
-            - "With Alex, I'm working on CMU's team for the Amazon Alexa Challenge 2020."
+            - 'Advised by Profs. Yulia Tsvetkov, Alan W Black and Alexander Rudnicky'
+            - 'Proposed an intrepretable text summarization based approach for forming expertise graphs by understanding important concepts of research articles which can then be used to study knowledge proliferation.'
+            - 'Performed a linguistic driven analysis on the characteristics of good negotiators and incorporated explicit strategy-sequence structure using Graph Neural Networks to improve non-collaborative dialogue systems.'
+            - 'Collaborated with team Tartan to develop a conversational system in Amazon Alexa Challenge 2019; developed mini-bots and analyzed conversational story structure, reached semi-finals.'
+            - 'Modeled the structure of dialogue by analyzing the flow of conversational topics and detecting non-coherence. Submitted proposal for Alexa Challenge 2020.'
   - title: 'Research Software Engineer at Samsung Research India'
     year: 'Jul 18 - Aug 19'
     location: Bangalore, India
     description:
     - "Improved open domain dialogue systems using side information and contextual knowledge." 
-    - "Also constructed a low resource intent classification and speaker recognition solutions which will be incorporated in an upcoming product of Samsung."
+    - "Constructed a low resource intent classification and speaker recognition solution using GMMs."
   # - title: 'Software Engineering Intern at Google Research'
   #   year: 'Summer 2018 <br/> &emsp;  & <br/> Spring 2019'
   #   location: USA
@@ -55,12 +62,13 @@
     year: 'Jan - Jul 18'
     location: Bangalore, India
     description:
-    - "Worked on the problem of Distantly-Supervised Relation Extraction where we proposed a novel solution using Graph Convolution Networks and information from external knowledge sources."
+    - "Constructed a unique India-Centric Knowledge Graph  based on the Never-Ending Language Learning Paradigm."
+    - "Improved Distantly-Supervised Relation Extraction using Side Information achieving SOTA results."
   - title: Summer Intern at Samsung Research India
     year: Summer 2017
     location: Bangalore, India
     description: 
-    - "Constructed tools for packet generation and distributed analysis for the data link layer of 5G protocol."
+    - "Developed tools for packet generation and distributed analysis for the data link layer of 5G protocol."
   - title: Research Intern at IIRS, ISRO
     year: Summer 2016
     location: Dehradun, India
@@ -140,7 +148,7 @@
   type: table
   contents:
   - title: '<b>Teaching Assistant</b> for <b>Applied Machine Learning</b>'
-    year: Spring 2020
+    year: Spring & Fall 20
     location: USA
     description:
     - Undergraduate/Graduate-level introduction to machine learning course in an application focused way, taught by <a href="https://www.cs.cmu.edu/~cprose/" target="_blank">Prof. Carolyn Rose</a> at Carnegie Mellon University.

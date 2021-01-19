@@ -51,3 +51,12 @@ SEMEVAL20:
 
 ALEXA20:
   url: https://developer.amazon.com/alexaprize/challenges/current-challenge/
+
+ICLR21:
+  url: https://openreview.net/group?id=ICLR.cc/2021/Conference
+
+EACL21:
+  url: https://2021.eacl.org/
+
+EMNLP20:
+  url: https://2020.emnlp.org/

@@ -1,23 +1,80 @@
 ---
 ---
 
-@inproceedings{reside2018,
-  title = 	{RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information},
-  author = 	{Vashishth, Shikhar and Joshi, Rishabh and Prayaga, Sai Suman and Bhattacharyya, Chiranjib and Talukdar, Partha},
-  booktitle = 	{Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
-  year = 	{2018},
-  address = 	{Brussels, Belgium},
-  organization= 	{Association for Computational Linguistics},
-  abbr=         {EMNLP18},
-    code = {https://github.com/malllabiisc/reside},
-    video = {https://vimeo.com/305199302},
-    supplement= {reside18/reside18_supplement.pdf},
-    pdf = {reside18/reside18_paper.pdf},
-    abstract = {Distantly-supervised Relation Extraction (RE) methods train an extractor by automatically aligning relation instances in a Knowledge Base (KB) with unstructured text. In addition to relation instances, KBs often contain other relevant side information, such as aliases of relations (e.g., founded and co-founded are aliases for the relation founderOfCompany). RE models usually ignore such readily available side information. In this paper, we propose RESIDE, a distantly-supervised neural relation extraction method which utilizes additional side information from KBs for improved relation extraction. It uses entity type and relation alias information for imposing soft constraints while predicting relations. RESIDE employs Graph Convolution Networks (GCN) to encode syntactic information from text and improves performance even when limited side information is available. Through extensive experiments on benchmark datasets, we demonstrate RESIDE’s effectiveness. We have made RESIDE’s source code available to encourage reproducible research.},
-    address =	{Brussels, Belgium},
-    pages =	{1257--1266},
-    url =	{http://aclweb.org/anthology/D18-1157}
+@inproceedings{
+	joshi2021dialograph,
+	title={DialoGraph: Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues},
+	author = 	{Joshi, Rishabh and Balachandran, Vidhisha and Vashishth, Shikhar and Black, Alan W and Tsvetkov, Yulia},
+	booktitle={International Conference on Learning Representations},
+	year={2021},
+	url={https://openreview.net/forum?id=kDnal_bbb-E},
+	abbr={ICLR21},
+	pdf = {dialograph21/dialograph21.pdf},
+	abstract = {To successfully negotiate a deal, it is not enough to communicate fluently: pragmatic planning of persuasive negotiation strategies is essential. While modern dialogue agents excel at generating fluent sentences, they still lack pragmatic grounding and cannot reason strategically. We present DialoGraph, a negotiation system that incorporates pragmatic strategies in a negotiation dialogue using graph neural networks. DialoGraph explicitly incorporates dependencies between sequences of strategies to enable improved and interpretable prediction of next optimal strategies, given the dialogue context. Our graph-based method outperforms prior state-of-the-art negotiation models both in the accuracy of strategy/dialogue act prediction and in the quality of downstream dialogue response generation. We qualitatively show further benefits of learned strategy-graphs in providing explicit associations between effective negotiation strategies over the course of the dialogue, leading to interpretable and strategic dialogues.},
 }
+
+
+@inproceedings{resper2021,
+  title = 	{ResPer: Computationally Modelling Resisting Strategies in Persuasive Conversations.},
+  author = 	{Dutt, Ritam and Sinha, Sayan and Joshi, Rishabh and Chakraborty, Surya Shekhar and Riggs, Meredith and Yan, Xinru and Bao, Haogang and Rose, Carolyn},
+  booktitle = 	{Proceedings of the 2021 Conference on European Association for Computational Linguistics},
+  year = 	{2021},
+  abbr={EACL21},
+}
+
+
+@inproceedings{keepingup,
+	title = "Keeping Up Appearances: Computational Modeling of Face Acts in Persuasion Oriented Discussions",
+	author = "Dutt, Ritam  and Joshi, Rishabh  and Rose, Carolyn",
+	booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+	month = nov,
+	year = "2020",
+	address = "Online",
+	publisher = "Association for Computational Linguistics",
+	url = "https://www.aclweb.org/anthology/2020.emnlp-main.605",
+	doi = "10.18653/v1/2020.emnlp-main.605",
+	pages = "7473--7485",
+	abstract = "The notion of face refers to the public self-image of an individual that emerges both from the individual{'}s own actions as well as from the interaction with others. Modeling face and understanding its state changes throughout a conversation is critical to the study of maintenance of basic human needs in and through interaction. Grounded in the politeness theory of Brown and Levinson (1978), we propose a generalized framework for modeling face acts in persuasion conversations, resulting in a reliable coding manual, an annotated corpus, and computational models. The framework reveals insights about differences in face act utilization between asymmetric roles in persuasion conversations. Using computational models, we are able to successfully identify face acts as well as predict a key conversational outcome (e.g. donation success). Finally, we model a latent representation of the conversational state to analyze the impact of predicted face acts on the probability of a positive conversational outcome and observe several correlations that corroborate previous findings.",
+	abbr={EMNLP20},
+}
+
+
+@inproceedings{alexa2020,
+	title={Tartan: A Two-Tiered Dialog Framework for Multi-Domain Social Chitchat},
+	author={Chen, Fanglin and Chi Ta-Chung and Lyu, Shiyang and Gong, Jiachen and Parekh, Tanmay and Joshi, Rishabh and Kaushik, Anant and Rudnicky, Alexander},
+	booktitle={Proceedings of the 3rd Alexa Prize 2019},
+	year={2020},
+	abbr=         {ALEXA20},
+}
+
+
+@ARTICLE{medtype2020,
+       author = {{Vashishth}, Shikhar and {Joshi}, Rishabh and {Dutt}, Ritam and
+         {Newman-Griffis}, Denis and {Rose}, Carolyn},
+        title = "{MedType: Improving Medical Entity Linking with Semantic Type Prediction}",
+      journal = {arXiv e-prints},
+     keywords = {Computer Science - Computation and Language},
+         year = 2020,
+        month = may,
+          eid = {arXiv:2005.00460},
+        pages = {arXiv:2005.00460},
+archivePrefix = {arXiv},
+	abbr={arXiv},
+       eprint = {2005.00460},
+ primaryClass = {cs.CL},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv200500460V},
+      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@inproceedings{propaganda2020,
+	title={LTIatCMU at SemEval-2020 Task 11: Incorporating Multi-Level Features for Multi-Granular Propaganda Span Identification},
+	author ={Joshi<nobr><em>*</em></nobr>, Rishabh and Khosla*, Sopan and Dutt*, Ritam and Black, Alan W and Tsvetkov, Yulia},
+	booktitle={Proceedings of the 14th Internation Workshop on Semantic Evaluation},
+	address={Barcelona, Spain},
+	year={2020},
+	abbr={SEMEVAL20},
+}
+
 
 @inproceedings{amused2020,
   title = 	{AMUSED: A Multi-Stream Vector Representation Method for Use in Natural Dialogue},
@@ -45,37 +102,23 @@
     url =	{https://arxiv.org/abs/2003.13657}
 }
 
-@inproceedings{alexa2020,
-	title={Tartan: A Two-Tiered Dialog Framework for Multi-Domain Social Chitchat},
-	author={Chen, Fanglin and Chi Ta-Chung and Lyu, Shiyang and Gong, Jiachen and Parekh, Tanmay and Joshi, Rishabh and Kaushik, Anant and Rudnicky, Alexander},
-	booktitle={Proceedings of the 3rd Alexa Prize 2019},
-	year={2020},
-	abbr=         {ALEXA20},
-}
 
-@ARTICLE{medtype2020,
-       author = {{Vashishth}, Shikhar and {Joshi}, Rishabh and {Dutt}, Ritam and
-         {Newman-Griffis}, Denis and {Rose}, Carolyn},
-        title = "{MedType: Improving Medical Entity Linking with Semantic Type Prediction}",
-      journal = {arXiv e-prints},
-     keywords = {Computer Science - Computation and Language},
-         year = 2020,
-        month = may,
-          eid = {arXiv:2005.00460},
-        pages = {arXiv:2005.00460},
-archivePrefix = {arXiv},
-	abbr={arXiv},
-       eprint = {2005.00460},
- primaryClass = {cs.CL},
-       adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv200500460V},
-      adsnote = {Provided by the SAO/NASA Astrophysics Data System}
-}
 
-@inproceedings{propaganda2020,
-	title={LTIatCMU at SemEval-2020 Task 11: Incorporating Multi-Level Features for Multi-Granular Propaganda Span Identification},
-	author ={Joshi<nobr><em>*</em></nobr>, Rishabh and Khosla*, Sopan and Dutt*, Ritam and Black, Alan W and Tsvetkov, Yulia},
-	booktitle={Proceedings of the 14th Internation Workshop on Semantic Evaluation},
-	address={Barcelona, Spain},
-	year={2020},
-	abbr={SEMEVAL20},
+
+@inproceedings{reside2018,
+  title = 	{RESIDE: Improving Distantly-Supervised Neural Relation Extraction using Side Information},
+  author = 	{Vashishth, Shikhar and Joshi, Rishabh and Prayaga, Sai Suman and Bhattacharyya, Chiranjib and Talukdar, Partha},
+  booktitle = 	{Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},
+  year = 	{2018},
+  address = 	{Brussels, Belgium},
+  organization= 	{Association for Computational Linguistics},
+  abbr=         {EMNLP18},
+    code = {https://github.com/malllabiisc/reside},
+    video = {https://vimeo.com/305199302},
+    supplement= {reside18/reside18_supplement.pdf},
+    pdf = {reside18/reside18_paper.pdf},
+    abstract = {Distantly-supervised Relation Extraction (RE) methods train an extractor by automatically aligning relation instances in a Knowledge Base (KB) with unstructured text. In addition to relation instances, KBs often contain other relevant side information, such as aliases of relations (e.g., founded and co-founded are aliases for the relation founderOfCompany). RE models usually ignore such readily available side information. In this paper, we propose RESIDE, a distantly-supervised neural relation extraction method which utilizes additional side information from KBs for improved relation extraction. It uses entity type and relation alias information for imposing soft constraints while predicting relations. RESIDE employs Graph Convolution Networks (GCN) to encode syntactic information from text and improves performance even when limited side information is available. Through extensive experiments on benchmark datasets, we demonstrate RESIDE’s effectiveness. We have made RESIDE’s source code available to encourage reproducible research.},
+    address =	{Brussels, Belgium},
+    pages =	{1257--1266},
+    url =	{http://aclweb.org/anthology/D18-1157}
 }
