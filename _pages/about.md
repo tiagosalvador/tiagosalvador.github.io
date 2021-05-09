@@ -61,3 +61,5 @@ address: <a href="https://www.google.com/maps/place/Gates+Center+for+Computer+Sc
     </div>
   {% endfor %}
 </div>
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=hbglEpf0RAKZZ8FUj0xshAsymbHulHQEq7Pao7vKCf8&cl=ffffff&w=a"></script>
