@@ -1,6 +1,6 @@
 ---
 layout: page
-title: DialoGraph: Incorporating Interpretable Strategy-Graph Networks into Negotiation Dialogues
+title: DialoGraph Incorporating Interpretable Strategy Graph Networks into Negotiation Dialogues
 description: We propose DialoGraph, a negotiation dialogue system that leverages Graph Attention Networks to model complex negotiation strategies while providing interpretability for the model via intermediate structures.
 img: /assets/img/dialograph.png
 ---
