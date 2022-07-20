@@ -1,97 +1,96 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
+    - name: Name
+      value: Tiago Salvador
     - name: Date of Birth
-      value: 14th March 1879
+      value: 14th September 1989
     - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+      value: Portuguese (native), English (fluent), French (basic), Spanish (basic)
+    - name: Immigration Status
+      value: Green Card (expected September 2022)
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Post-doctoral Researcher
+      institution: McGill University, Montreal, Quebec, Canada
+      year: Sept 2020 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Conduct research in deep learning under the direction of Dr. Adam Oberman.
+        - Write research papers for publication and present current work at conferences and seminars. 
+        - Organize weekly meetings. Mentor graduate students. Assist with writing grant applications.
+
+    - title: Post-doctoral Assistant Professor
+      institution: University of Michigan, Ann Arbor, Michigan, US
+      year: Sept 2017 - Aug 2020
+      description:
+#         - Conducted research in numerical analysis, under the guidance of Dr. Selim Esedoglu, focusing on threshold dynamics algorithms which are ideal for large scale simulations of grain growth. Wrote research articles for publication and presented work at conferences and seminars.
+#         - Taught undergraduate mathematics courses. Designed and delivered lectures, facilitated group work, and wrote homework assignments and exams. Courses included multivariable and vector calculus, linear algebra, differential equations and numerical analysis.
+
+
+        - title: <b>Research activities</b>
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+            - Conducted research in numerical analysis, under the guidance of Dr. Selim Esedoglu, focusing on threshold dynamics algorithms which are ideal for large scale simulations of grain growth.
+            - Wrote research articles for publication and presented work at conferences and seminars.
+        - title: <b>Teaching activities</b>
+          contents:
+            - Taught undergraduate mathematics courses. Designed and delivered lectures, facilitated group work, and wrote homework assignments and exams.
+            - Courses included multivariable and vector calculus, linear algebra, differential equations and numerical analysis.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Mathematics
+      institution: McGill University, Montreal, Canada
+      year: 2012-2017
+#      description:
+#        - Description 1.
+#        - Description 2.
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
+    - title: M.Sc in Mathematics and Applications
+      institution: Instituto Superior Técnico, Universidade de Lisboa, Portugal
+      year: 2010-2012
+#      description:
+#        - Description 1.
+#        - Description 2.
+    - title: B.Sc in Applied Mathematics and Computation
+      institution: Instituto Superior Técnico, Universidade de Lisboa, Portugal
+      year: 2007-2010
+#      description:
+#        - Description 1.
+#        - Description 2.
 
 - title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+    - title: <a href="https://github.com/tiagosalvador/calibration-baselines">Calibration Baselines</a>
       items:
-        - Description 1.
-        - Description 2.
+        - Implemented and benchmarked several state-of-the-art post hoc calibration methods using Python and Pytorch.
+    - title: <a href="https://github.com/tiagosalvador/connect4">Building Agents to Play Connect4</a>
+      items:
+        - Created a framework to play Connect4.
+        - Implemented baseline agents with simple heuristics (e.g. play a winning move if one is available).
+        - Implemented minmax agent with alpha-beta pruning.
+        - Implemented a Deep Q-Network that learns how to play Connect 4 by self-play.
 
-- title: Other Interests
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 1921
+#       items: 
+#         - Nobel Prize in Physics 
+#         - Matteucci Medal
+#     - year: 2029
+#       items: 
+#         - Max Planck Medal
+
+- title: Skills
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b>Programming Languages:</b> Python, Matlab, Mathematica.
+    - <b>Libraries:</b> NumPy, Sci-Py, Pandas, Matplotlib, scikit-learn, PyTorch.
+    - <b>Operating Systems, Tools:</b> Linux, LaTeX, Jupyter Notebook, Git.
