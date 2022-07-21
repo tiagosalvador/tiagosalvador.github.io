@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm a post-doctoral researcher at [McGill University](https://www.mcgill.ca/) working at the intersection of applied math, deep learning and machine learning. My main focus is in computer vision, developing algorithms for domain adaptation and out-of-distribution uncertainty problems.
+I'm a post-doctoral researcher at [McGill University](https://www.mcgill.ca/) and [Mila](https://mila.quebec/en/) working at the intersection of applied math, deep learning and machine learning. My main focus is in computer vision, developing algorithms for domain adaptation and out-of-distribution uncertainty problems.
 
 Previously, I was a post-doctoral Assistant Professor at the [University of Michigan](https://umich.edu/) in applied math, working on threshold dynamics algorithms which are ideal for large scale simulations of grain growth. I did my PhD in applied mathematics at [McGill University](https://www.mcgill.ca/) supervised by [Professor Adam Oberman](https://www.adamoberman.net/). My research focused on developing numerical methods for partial differential equations.
 
