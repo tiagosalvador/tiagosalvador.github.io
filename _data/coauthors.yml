@@ -1,3 +1,15 @@
 "Oberman":
-  - firstname: ["Adam", "Adam M"]
+  - firstname: ["Adam", "Adam M."]
     url: https://www.adamoberman.net/
+"Hamfeldt":
+  - firstname: ["Brittany", "Brittany Froese", "Brittany D."]
+    url: https://web.njit.edu/~bdfroese/
+"Froese":
+  - firstname: ["Brittany", "Brittany D."]
+    url: https://web.njit.edu/~bdfroese/
+"Voleti":
+  - firstname: ["Vikram"]
+    url: https://voletiv.github.io/
+"Esedoglu":
+  - firstname: ["Selim"]
+    url: http://www.math.lsa.umich.edu/~esedoglu/

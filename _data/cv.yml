@@ -3,8 +3,6 @@
   contents:
     - name: Name
       value: Tiago Salvador
-    - name: Date of Birth
-      value: 14th September 1989
     - name: Languages
       value: Portuguese (native), English (fluent), French (basic), Spanish (basic)
     - name: Immigration Status
@@ -14,7 +12,7 @@
   type: time_table
   contents:
     - title: Post-doctoral Researcher
-      institution: McGill University, Montreal, Quebec, Canada
+      institution: Mila Quebec AI Institute & McGill University, Montreal, Quebec, Canada
       year: Sept 2020 - Present
       description:
         - Conduct research in deep learning under the direction of Dr. Adam Oberman.
@@ -37,6 +35,7 @@
           contents:
             - Taught undergraduate mathematics courses. Designed and delivered lectures, facilitated group work, and wrote homework assignments and exams.
             - Courses included multivariable and vector calculus, linear algebra, differential equations and numerical analysis.
+            - Received a student <u>Honored Instructor Nomination</u> that recognizes the teaching efforts of instructors who had a positive impact on their experience.
 
 - title: Education
   type: time_table
@@ -64,6 +63,13 @@
 #        - Description 1.
 #        - Description 2.
 
+- title: Skills
+  type: list
+  contents:
+    - <b>Programming Languages:</b> Python, Matlab, Mathematica.
+    - <b>Libraries:</b> NumPy, Sci-Py, Pandas, Matplotlib, scikit-learn, PyTorch.
+    - <b>Operating Systems, Tools:</b> Linux, Jupyter Notebook, Git.
+
 - title: Open Source Projects
   type: nested_list
   contents:
@@ -88,9 +94,30 @@
 #       items: 
 #         - Max Planck Medal
 
-- title: Skills
-  type: list
-  contents:
-    - <b>Programming Languages:</b> Python, Matlab, Mathematica.
-    - <b>Libraries:</b> NumPy, Sci-Py, Pandas, Matplotlib, scikit-learn, PyTorch.
-    - <b>Operating Systems, Tools:</b> Linux, LaTeX, Jupyter Notebook, Git.
+#- title: Publications (selected)
+#  type: publication_list
+#  contents:
+#    - title: 'ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet'
+#      venue: In ICML Shift Happens Workshop 2022
+#      tag: ICML Workshop
+#      authors: Tiago Salvador and Adam M. Oberman
+#    - title: 'FairCal: Fairness Calibration for Face Verification'
+#      venue: In International Conference on Learning Representations 2022
+#      tag: ICLR
+#      authors: Tiago Salvador, Stephanie Cairns, Vikram Voleti, Noah Marshall and Adam M. Oberman
+#    - title: A Partial Differential Equation Obstacle Problem for the Level Set Approach to Visibility
+#      venue: In Journal of Scientific Computing 2020
+#      tag: J Sci Comput
+#      authors: Adam M. Oberman and Tiago Salvador
+#    - title: A simplified threshold dynamics algorithm for isotropic surface energies
+#      venue: In Journal of Scientific Computing 2019
+#      tag: J Sci Comput
+#      authors: Tiago Salvador and Selim Esedoglu
+#    - title: Higher-order adaptive finite difference methods for fully nonlinear elliptic equations
+#      venue: In Journal of Scientific Computing 2018
+#      tag: J Sci Comput
+#      authors: Brittany Froese Hamfeldt and Tiago Salvador
+#    - title: 'Filtered schemes for Hamilton-Jacobi equations: a simple construction of convergent accurate difference schemes'
+#      venue: In Journal of Computational Physics 2015
+#      tag: JCP
+#      authors: Adam M. Oberman and Tiago Salvador

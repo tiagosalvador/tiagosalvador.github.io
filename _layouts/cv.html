@@ -23,6 +23,8 @@ layout: default
                     {% include cv/nested_list.html %}
                   {% elsif entry.type == "time_table" %}
                    {% include cv/time_table.html %}
+                  {% elsif entry.type == "publication_list" %}
+                   {% include cv/publication_list.html %}
                   {% else %}
                     {{ entry.contents }}
                   {% endif %}
