@@ -6,7 +6,7 @@
     - name: Languages
       value: Portuguese (native), English (fluent), French (basic), Spanish (basic)
     - name: Immigration Status
-      value: Green Card (expected September 2022)
+      value: Green Card (expected October 2022)
 
 - title: Experience
   type: time_table
@@ -15,9 +15,9 @@
       institution: Mila Quebec AI Institute & McGill University, Montreal, Quebec, Canada
       year: Sept 2020 - Present
       description:
-        - Conduct research in deep learning under the direction of Dr. Adam Oberman.
-        - Write research papers for publication and present current work at conferences and seminars. 
-        - Organize weekly meetings. Mentor graduate students. Assist with writing grant applications.
+        - Conduct research in deep learning on domain adaptation and out-of-distribution problems.
+        - Write research papers for publication and present current work at conferences (2).
+        - Organize weekly meetings. Mentor graduate students (4). Assist with writing grant applications.
 
     - title: Post-doctoral Assistant Professor
       institution: University of Michigan, Ann Arbor, Michigan, US
@@ -26,11 +26,10 @@
 #         - Conducted research in numerical analysis, under the guidance of Dr. Selim Esedoglu, focusing on threshold dynamics algorithms which are ideal for large scale simulations of grain growth. Wrote research articles for publication and presented work at conferences and seminars.
 #         - Taught undergraduate mathematics courses. Designed and delivered lectures, facilitated group work, and wrote homework assignments and exams. Courses included multivariable and vector calculus, linear algebra, differential equations and numerical analysis.
 
-
         - title: <b>Research activities</b>
           contents:
             - Conducted research in numerical analysis, under the guidance of Dr. Selim Esedoglu, focusing on threshold dynamics algorithms which are ideal for large scale simulations of grain growth.
-            - Wrote research articles for publication and presented work at conferences and seminars.
+            - Wrote research articles for publication and presented work at 4 conferences and 3 seminars.
         - title: <b>Teaching activities</b>
           contents:
             - Taught undergraduate mathematics courses. Designed and delivered lectures, facilitated group work, and wrote homework assignments and exams.
@@ -66,13 +65,16 @@
 - title: Skills
   type: list
   contents:
-    - <b>Programming Languages:</b> Python, Matlab, Mathematica.
-    - <b>Libraries:</b> NumPy, Sci-Py, Pandas, Matplotlib, scikit-learn, PyTorch.
+    - <b>Programming Languages:</b> Python, Matlab, Mathematica, SQL.
+    - <b>Libraries:</b> NumPy, Sci-Py, Pandas, Matplotlib, scikit-learn, BeautifulSoup, PyTorch.
     - <b>Operating Systems, Tools:</b> Linux, Jupyter Notebook, Git.
 
 - title: Open Source Projects
   type: nested_list
   contents:
+    - title: <a href="http://github.com/tiagosalvador/soccer-predictions">Soccer Predictions</a>
+      items:
+        - Web scrapped Premier League data from Transfermarkt and Football‐Data.co.uk and built forecaster models to predict soccer games.
     - title: <a href="https://github.com/tiagosalvador/calibration-baselines">Calibration Baselines</a>
       items:
         - Implemented and benchmarked several state-of-the-art post hoc calibration methods using Python and Pytorch.
@@ -87,24 +89,38 @@
 #   type: time_table
 #   contents:
 #     - year: 1921
-#       items: 
-#         - Nobel Prize in Physics 
+#       items:
+#         - Nobel Prize in Physics
 #         - Matteucci Medal
 #     - year: 2029
-#       items: 
+#       items:
 #         - Max Planck Medal
 
-#- title: Publications (selected)
-#  type: publication_list
-#  contents:
-#    - title: 'ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet'
-#      venue: In ICML Shift Happens Workshop 2022
-#      tag: ICML Workshop
-#      authors: Tiago Salvador and Adam M. Oberman
-#    - title: 'FairCal: Fairness Calibration for Face Verification'
-#      venue: In International Conference on Learning Representations 2022
-#      tag: ICLR
-#      authors: Tiago Salvador, Stephanie Cairns, Vikram Voleti, Noah Marshall and Adam M. Oberman
+- title: Publications & Preprints(selected)
+  type: publication_list
+  contents:
+    - title: 'ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet'
+      venue: In ICML Shift Happens Workshop 2022
+      tag: ICML Workshop
+      authors: Tiago Salvador and Adam M. Oberman
+      description:
+        - <a href="https://tiagosalvador.github.io/projects/imagenet-shift/">Project Page</a>
+        - <a href="https://github.com/oberman-lab/imagenet-shift">Code</a>
+        - We propose two new datasets, using data augmentation, to measure model robustness to dataset shift.
+    - title: 'FairCal: Fairness Calibration for Face Verification'
+      venue: In International Conference on Learning Representations 2022
+      tag: ICLR
+      authors: Tiago Salvador, Stephanie Cairns, Vikram Voleti, Noah Marshall and Adam M. Oberman
+      description:
+        - <a href="https://tiagosalvador.github.io/projects/faircal/">Project Page</a>
+        - <a href="https://github.com/tiagosalvador/faircal">Code</a>
+        - We remove bias from face recognition models leveraging unsupervised clustering to bypass the need for sensitive attribute (such as race, ethnicity, etc). We improve different fairness metrics while increasing accuracy and without any additional training.
+    - title: Frustratingly Easy Uncertainty Estimation for Distribution Shift
+      venue: arXiv preprint 2021
+      tag: arXiv
+      authors: Tiago Salvador, Vikram Voleti, Alexander Iannantuono and Adam M. Oberman
+      description:
+        - We propose two simple post‐hoc calibration methods that leverage data augmentation to improve calibration in the presence of distribution shift (unsupervised domain adaptation and domain generalization) for deep neural networks.
 #    - title: A Partial Differential Equation Obstacle Problem for the Level Set Approach to Visibility
 #      venue: In Journal of Scientific Computing 2020
 #      tag: J Sci Comput
