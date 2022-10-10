@@ -1,14 +1,21 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% https://bibdesk.sourceforge.io/
 
-%% Created for Tiago Salvador at 2022-07-18 17:09:41 -0400 
+%% Created for Tiago Salvador at 2022-10-04 22:05:20 -0400
 
 
-%% Saved with string encoding Unicode (UTF-8) 
+%% Saved with string encoding Unicode (UTF-8)
 
-
-%% @string{aps = {American Physical Society,}}
-
+@article{salvador2022pda,
+	abbr = {arXiv},
+	abstract = {Unsupervised Domain Adaptation (UDA) aims at classifying unlabeled target images leveraging source labeled ones. In this work, we consider the Partial Domain Adaptation (PDA) variant, where we have extra source classes not present in the target domain. Most successful algorithms use model selection strategies that rely on target labels to find the best hyper-parameters and/or models along training. However, these strategies violate the main assumption in PDA: only unlabeled target domain samples are available. Moreover, there are also inconsistencies in the experimental settings - architecture, hyper-parameter tuning, number of runs - yielding unfair comparisons. The main goal of this work is to provide a realistic evaluation of PDA methods with the different model selection strategies under a consistent evaluation protocol. We evaluate 7 representative PDA algorithms on 2 different real-world datasets using 7 different model selection strategies. Our two main findings are: (i) without target labels for model selection, the accuracy of the methods decreases up to 30 percentage points; (ii) only one method and model selection pair performs well on both datasets. Experiments were performed with our PyTorch framework, BenchmarkPDA, which we open source.},
+	author = {Tiago Salvador and Kilian Fatras and Ioannis Mitliagkas and Adam Oberman},
+	code = {https://github.com/oberman-lab/BenchmarkPDA},
+	html = {https://arxiv.org/abs/2210.01210},
+	journal = {arXiv preprint arXiv: Arxiv-2210.01210},
+	pdf = {https://arxiv.org/pdf/2210.01210.pdf},
+	title = {A Reproducible and Realistic Evaluation of Partial Domain Adaptation Methods},
+	year = {2022}}
 
 @inproceedings{salvador2022imagenetcartoon,
 	abbr = {ICML Workshop},
@@ -17,14 +24,13 @@
 	bibtex_show = {true},
 	booktitle = {ICML Shift Happens Workshop},
 	code = {https://github.com/oberman-lab/imagenet-shift},
-	pdf = {https://openreview.net/pdf?id=YlAUXhjwaQt},
-	title = {ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet},
-	selected = {true},
 	html = {https://openreview.net/forum?id=YlAUXhjwaQt},
+	pdf = {https://openreview.net/pdf?id=YlAUXhjwaQt},
+	selected = {true},
+	title = {ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet},
 	url = {https://openreview.net/forum?id=YlAUXhjwaQt},
 	year = {2022},
-}
-
+	bdsk-url-1 = {https://openreview.net/forum?id=YlAUXhjwaQt}}
 
 @inproceedings{salvador2022faircal,
 	abbr = {ICLR},
@@ -33,24 +39,23 @@
 	bibtex_show = {true},
 	booktitle = {International Conference on Learning Representations},
 	code = {https://github.com/oberman-lab/imagenet-shift},
-	pdf = {https://openreview.net/pdf?id=YlAUXhjwaQt},
-	title = {FairCal: Fairness Calibration for Face Verification},
-	selected = {true},
 	html = {https://openreview.net/forum?id=nRj0NcmSuxb},
+	pdf = {https://openreview.net/pdf?id=YlAUXhjwaQt},
+	selected = {true},
+	title = {FairCal: Fairness Calibration for Face Verification},
 	url = {https://openreview.net/forum?id=nRj0NcmSuxb},
-	year = {2022}
-}
+	year = {2022},
+	bdsk-url-1 = {https://openreview.net/forum?id=nRj0NcmSuxb}}
 
 @article{salvador2021frustratingly,
 	abbr = {arXiv},
 	abstract = {Distribution shift is an important concern in deep image classification, produced either by corruption of the source images, or a complete change, with the solution involving domain adaptation. While the primary goal is to improve accuracy under distribution shift, an important secondary goal is uncertainty estimation: evaluating the probability that the prediction of a model is correct. While improving accuracy is hard, uncertainty estimation turns out to be frustratingly easy. Prior works have appended uncertainty estimation into the model and training paradigm in various ways. Instead, we show that we can estimate uncertainty by simply exposing the original model to corrupted images, and performing simple statistical calibration on the image outputs. Our frustratingly easy methods demonstrate superior performance on a wide range of distribution shifts as well as on unsupervised domain adaptation tasks, measured through extensive experimentation.},
-        author = {Tiago Salvador and Vikram Voleti and Alexander Iannantuono and Adam Oberman},
-        journal = {arXiv preprint arXiv: Arxiv-2106.03762},
-        html = {https://arxiv.org/abs/2106.03762},
-        pdf = {https://arxiv.org/pdf/2106.03762.pdf},
+	author = {Tiago Salvador and Vikram Voleti and Alexander Iannantuono and Adam Oberman},
+	html = {https://arxiv.org/abs/2106.03762},
+	journal = {arXiv preprint arXiv: Arxiv-2106.03762},
+	pdf = {https://arxiv.org/pdf/2106.03762.pdf},
 	title = {Frustratingly Easy Uncertainty Estimation for Distribution Shift},
-        year = {2021},
-}
+	year = {2021}}
 
 @inproceedings{oberman2020Top1,
 	abbr = {ICML Workshop},
@@ -64,8 +69,7 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	title = {Calibrated Top-1 Uncertainty estimates for classification by score based models},
 	url = {http://www.gatsby.ucl.ac.uk/~balaji/udl2020/accepted-papers/UDL2020-paper-014.pdf},
 	year = {2020},
-}
-
+	bdsk-url-1 = {http://www.gatsby.ucl.ac.uk/~balaji/udl2020/accepted-papers/UDL2020-paper-014.pdf}}
 
 @article{oberman2020visibility,
 	abbr = {JSC},
@@ -74,17 +78,17 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	bibtex_show = {true},
 	code = {https://github.com/tiagosalvador/visibility-pde},
 	doi = {10.1007/s10915-019-01106-x},
+	html = {https://doi.org/10.1007/s10915-019-01106-x},
 	isbn = {1573-7691},
 	journal = {Journal of Scientific Computing},
-	html = {https://doi.org/10.1007/s10915-019-01106-x},
 	number = {1},
 	pages = {14},
-        pdf = {https://rdcu.be/b0Qcf},
+	pdf = {https://rdcu.be/b0Qcf},
 	title = {A Partial Differential Equation Obstacle Problem for the Level Set Approach to Visibility},
 	url = {https://doi.org/10.1007/s10915-019-01106-x},
 	volume = {82},
 	year = {2020},
-}
+	bdsk-url-1 = {https://doi.org/10.1007/s10915-019-01106-x}}
 
 @article{salvador2019simplified,
 	abbr = {JSC},
@@ -92,39 +96,38 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	author = {Salvador, Tiago and Esedoglu, Selim},
 	bibtex_show = {true},
 	doi = {10.1007/s10915-018-0866-8},
+	html = {https://doi.org/10.1007/s10915-018-0866-8},
 	id = {Salvador2019},
 	isbn = {1573-7691},
 	journal = {Journal of Scientific Computing},
-	html = {https://doi.org/10.1007/s10915-018-0866-8},
 	number = {1},
 	pages = {648--669},
-        pdf = {https://rdcu.be/barm2},
+	pdf = {https://rdcu.be/barm2},
 	title = {A Simplified Threshold Dynamics Algorithm for Isotropic Surface Energies},
 	url = {https://doi.org/10.1007/s10915-018-0866-8},
 	volume = {79},
 	year = {2019},
-}
-
+	bdsk-url-1 = {https://doi.org/10.1007/s10915-018-0866-8}}
 
 @article{hamfeldt2018quadtree,
 	abbr = {JSC},
 	abstract = {We introduce generalised finite difference methods for solving fully nonlinear elliptic partial differential equations. Methods are based on piecewise Cartesian meshes augmented by additional points along the boundary. This allows for adaptive meshes and complicated geometries, while still ensuring consistency, monotonicity, and convergence. We describe an algorithm for efficiently computing the non-traditional finite difference stencils. We also present a strategy for computing formally higher-order convergent methods. Computational examples demonstrate the efficiency, accuracy, and flexibility of the methods.},
 	author = {Hamfeldt, Brittany Froese and Salvador, Tiago},
 	bibtex_show = {true},
+	code = {https://github.com/tiagosalvador/quadtrees-mesh},
 	doi = {10.1007/s10915-017-0586-5},
+	html = {https://doi.org/10.1007/s10915-018-0866-8},
 	id = {Hamfeldt2018},
 	isbn = {1573-7691},
 	journal = {Journal of Scientific Computing},
-	html = {https://doi.org/10.1007/s10915-018-0866-8},
 	number = {3},
 	pages = {1282--1306},
-        pdf = {http://rdcu.be/xBLC},
+	pdf = {http://rdcu.be/xBLC},
 	title = {Higher-Order Adaptive Finite Difference Methods for Fully Nonlinear Elliptic Equations},
 	url = {https://doi.org/10.1007/s10915-017-0586-5},
 	volume = {75},
 	year = {2018},
-}
-
+	bdsk-url-1 = {https://doi.org/10.1007/s10915-017-0586-5}}
 
 @article{oberman2017affine,
 	abbr = {IMAJNA},
@@ -144,8 +147,7 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	url = {https://doi.org/10.1093/imanum/drx045},
 	volume = {38},
 	year = {2018},
-}
-
+	bdsk-url-1 = {https://doi.org/10.1093/imanum/drx045}}
 
 @article{10.1093/imanum/drw007,
 	abbr = {IMAJNA},
@@ -154,34 +156,35 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	bibtex_show = {true},
 	doi = {10.1093/imanum/drw007},
 	eprint = {https://academic.oup.com/imajna/article-pdf/37/1/209/9633750/drw007.pdf},
-        html = {https://doi.org/10.1093/imanum/drw007},
+	html = {https://doi.org/10.1093/imanum/drw007},
 	issn = {0272-4979},
 	journal = {IMA Journal of Numerical Analysis},
 	month = {01},
 	number = {1},
 	pages = {209-236},
-        pdf = {https://academic.oup.com/imajna/article-pdf/37/1/209/9633750/drw007.pdf},
+	pdf = {https://academic.oup.com/imajna/article-pdf/37/1/209/9633750/drw007.pdf},
 	title = {{Numerical methods for the 2-Hessian elliptic partial differential equation}},
 	url = {https://doi.org/10.1093/imanum/drw007},
 	volume = {37},
 	year = {2017},
-}
+	bdsk-url-1 = {https://doi.org/10.1093/imanum/drw007}}
 
 @article{oberman2015filtered,
 	abbr = {JCP},
 	abstract = {We build a simple and general class of finite difference schemes for first order Hamilton--Jacobi (HJ) Partial Differential Equations. These filtered schemes are convergent to the unique viscosity solution of the equation. The schemes are accurate: we implement second, third and fourth order accurate schemes in one dimension and second order accurate schemes in two dimensions, indicating how to build higher order ones. They are also explicit, which means they can be solved using the fast sweeping method. The accuracy of the method is validated with computational results for the eikonal equation and other HJ equations in one and two dimensions, using filtered schemes made from standard centered differences, higher order upwinding and ENO interpolation.},
 	author = {Adam M. Oberman and Tiago Salvador},
 	bibtex_show = {true},
-        code = {https://github.com/tiagosalvador/filtered-schemes},
+	code = {https://github.com/tiagosalvador/filtered-schemes},
 	doi = {https://doi.org/10.1016/j.jcp.2014.12.039},
 	html = {https://www.sciencedirect.com/science/article/pii/S0021999114008560},
 	issn = {0021-9991},
 	journal = {Journal of Computational Physics},
 	keywords = {Fully nonlinear elliptic partial differential equations, Hamilton--Jacobi equations, Eikonal equation, Nonlinear finite difference methods, Viscosity solutions, Monotone schemes, Upwind schemes},
 	pages = {367-388},
-        pdf = {https://arxiv.org/pdf/1411.3205.pdf},
+	pdf = {https://arxiv.org/pdf/1411.3205.pdf},
 	title = {Filtered schemes for Hamilton--Jacobi equations: A simple construction of convergent accurate difference schemes},
 	url = {https://www.sciencedirect.com/science/article/pii/S0021999114008560},
 	volume = {284},
 	year = {2015},
-}
+	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S0021999114008560},
+	bdsk-url-2 = {https://doi.org/10.1016/j.jcp.2014.12.039}}

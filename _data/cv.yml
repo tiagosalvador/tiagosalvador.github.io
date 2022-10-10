@@ -99,6 +99,13 @@
 - title: Publications & Preprints(selected)
   type: publication_list
   contents:
+    - title: 'A Reproducible and Realistic Evaluation of Partial Domain Adaptation Methods'
+      venue: arXiv preprint 2022
+      tag: arXiv
+      authors: Tiago Salvador and Kilian Fatras and Ioannis Mitliagkas and Adam M. Oberman
+      description:
+        - <a href="https://github.com/oberman-lab/BenchmarkPDA">Code</a>
+        - A benchmark study on the impact of model selection strategies in partial domain adaptation methods.
     - title: 'ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet'
       venue: In ICML Shift Happens Workshop 2022
       tag: ICML Workshop
