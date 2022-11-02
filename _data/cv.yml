@@ -6,7 +6,7 @@
     - name: Languages
       value: Portuguese (native), English (fluent), French (basic), Spanish (basic)
     - name: Immigration Status
-      value: Green Card (expected October 2022)
+      value: Green Card (Expected November 2022)
 
 - title: Experience
   type: time_table
@@ -36,31 +36,6 @@
             - Courses included multivariable and vector calculus, linear algebra, differential equations and numerical analysis.
             - Received a student <u>Honored Instructor Nomination</u> that recognizes the teaching efforts of instructors who had a positive impact on their experience.
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Mathematics
-      institution: McGill University, Montreal, Canada
-      year: 2012-2017
-#      description:
-#        - Description 1.
-#        - Description 2.
-#        - title: Description 3.
-#          contents:
-#            - Sub-description 1.
-#            - Sub-description 2.
-    - title: M.Sc in Mathematics and Applications
-      institution: Instituto Superior Técnico, Universidade de Lisboa, Portugal
-      year: 2010-2012
-#      description:
-#        - Description 1.
-#        - Description 2.
-    - title: B.Sc in Applied Mathematics and Computation
-      institution: Instituto Superior Técnico, Universidade de Lisboa, Portugal
-      year: 2007-2010
-#      description:
-#        - Description 1.
-#        - Description 2.
 
 - title: Skills
   type: list
@@ -69,39 +44,13 @@
     - <b>Libraries:</b> NumPy, Sci-Py, Pandas, Matplotlib, scikit-learn, BeautifulSoup, PyTorch.
     - <b>Operating Systems, Tools:</b> Linux, Jupyter Notebook, Git.
 
-- title: Open Source Projects
-  type: nested_list
-  contents:
-    - title: <a href="http://github.com/tiagosalvador/soccer-predictions">Soccer Predictions</a>
-      items:
-        - Web scrapped Premier League data from Transfermarkt and Football‐Data.co.uk and built forecaster models to predict soccer games.
-    - title: <a href="https://github.com/tiagosalvador/calibration-baselines">Calibration Baselines</a>
-      items:
-        - Implemented and benchmarked several state-of-the-art post hoc calibration methods using Python and Pytorch.
-    - title: <a href="https://github.com/tiagosalvador/connect4">Building Agents to Play Connect4</a>
-      items:
-        - Created a framework to play Connect4.
-        - Implemented baseline agents with simple heuristics (e.g. play a winning move if one is available).
-        - Implemented minmax agent with alpha-beta pruning.
-        - Implemented a Deep Q-Network that learns how to play Connect 4 by self-play.
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 1921
-#       items:
-#         - Nobel Prize in Physics
-#         - Matteucci Medal
-#     - year: 2029
-#       items:
-#         - Max Planck Medal
-
-- title: Publications & Preprints(selected)
+- title: Publications & Preprints (selected)
   type: publication_list
   contents:
     - title: 'A Reproducible and Realistic Evaluation of Partial Domain Adaptation Methods'
-      venue: arXiv preprint 2022
-      tag: arXiv
+      venue: In NeurIPS Distribution Shifts Workshop 2022
+      tag: NeurIPS Workshop
       authors: Tiago Salvador and Kilian Fatras and Ioannis Mitliagkas and Adam M. Oberman
       description:
         - <a href="https://github.com/oberman-lab/BenchmarkPDA">Code</a>
@@ -144,3 +93,65 @@
 #      venue: In Journal of Computational Physics 2015
 #      tag: JCP
 #      authors: Adam M. Oberman and Tiago Salvador
+
+- title: Open Source Projects
+  type: nested_list
+  contents:
+    - title: <a href="http://github.com/tiagosalvador/soccer-predictions">Data Retrieval & Forecasting</a>
+      items:
+        - Web scrapped Premier League data from Transfermarkt and Football‐Data.co.uk and built forecaster models to predict soccer games.
+    - title: <a href="https://github.com/tiagosalvador/calibration-baselines">Calibration of Deep Learning Models</a>
+      items:
+        - Implemented and benchmarked several state-of-the-art post hoc calibration methods using Python and Pytorch.
+    - title: <a href="https://github.com/tiagosalvador/connect4">Building Deep Learning Agents to Play Games</a>
+      items:
+        - Created a framework to play Connect4.
+        - Implemented baseline agents with simple heuristics (e.g. play a winning move if one is available).
+        - Implemented minmax agent with alpha-beta pruning.
+        - Implemented a Deep Q-Network that learns how to play Connect 4 by self-play.
+
+- title: Presentations (selected)
+  type: publication_list
+  contents:
+    - title: 'ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet'
+      venue: In ICML Shift Happens Workshop, July 2022
+      tag: Online
+    - title: 'FairCal: Fairness Calibration for Face Verification'
+      venue: In International Conference on Learning Representations (ICLR), April 2022
+      tag: Online
+    - title: 'Fairness Calibration for Face Verification'
+      venue: Montreal Machine Learning and Optimization (MTL MLOpt) Internal Meeting, May 2021
+      tag: Online
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Mathematics
+      institution: McGill University, Montreal, Canada
+      year: 2012-2017
+#      description:
+#        - Description 1.
+#        - Description 2.
+#        - title: Description 3.
+#          contents:
+#            - Sub-description 1.
+#            - Sub-description 2.
+    - title: M.Sc in Mathematics and Applications
+      institution: Instituto Superior Técnico, Universidade de Lisboa, Portugal
+      year: 2010-2012
+#      description:
+#        - Description 1.
+#        - Description 2.
+    - title: B.Sc in Applied Mathematics and Computation
+      institution: Instituto Superior Técnico, Universidade de Lisboa, Portugal
+      year: 2007-2010
+#      description:
+#        - Description 1.
+#        - Description 2.
+    - title: Coursera Specializations
+      institution:
+      year: Summer 2020
+      description:
+        - Applied Data Science (Univ. of Michigan)
+        - Deep Learning (DeepLearning.AI)
+        - Reinforcement Learning (Univ. of Alberta)

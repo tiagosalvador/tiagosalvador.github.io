@@ -6,13 +6,16 @@
 
 %% Saved with string encoding Unicode (UTF-8)
 
-@article{salvador2022pda,
-	abbr = {arXiv},
+
+@inproceedings{salvador2022pda,
+	abbr = {NeurIPS Workshop},
 	abstract = {Unsupervised Domain Adaptation (UDA) aims at classifying unlabeled target images leveraging source labeled ones. In this work, we consider the Partial Domain Adaptation (PDA) variant, where we have extra source classes not present in the target domain. Most successful algorithms use model selection strategies that rely on target labels to find the best hyper-parameters and/or models along training. However, these strategies violate the main assumption in PDA: only unlabeled target domain samples are available. Moreover, there are also inconsistencies in the experimental settings - architecture, hyper-parameter tuning, number of runs - yielding unfair comparisons. The main goal of this work is to provide a realistic evaluation of PDA methods with the different model selection strategies under a consistent evaluation protocol. We evaluate 7 representative PDA algorithms on 2 different real-world datasets using 7 different model selection strategies. Our two main findings are: (i) without target labels for model selection, the accuracy of the methods decreases up to 30 percentage points; (ii) only one method and model selection pair performs well on both datasets. Experiments were performed with our PyTorch framework, BenchmarkPDA, which we open source.},
 	author = {Tiago Salvador and Kilian Fatras and Ioannis Mitliagkas and Adam Oberman},
+	arxiv = {2210.01210},
+	booktitle = {NeurIPS Distribution Shifts Workshop},
 	code = {https://github.com/oberman-lab/BenchmarkPDA},
 	html = {https://arxiv.org/abs/2210.01210},
-	journal = {arXiv preprint arXiv: Arxiv-2210.01210},
+	selected = {true},
 	pdf = {https://arxiv.org/pdf/2210.01210.pdf},
 	title = {A Reproducible and Realistic Evaluation of Partial Domain Adaptation Methods},
 	year = {2022}}
@@ -21,12 +24,12 @@
 	abbr = {ICML Workshop},
 	abstract = {Benchmarking the robustness to distribution shifts traditionally relies on dataset collection which is typically laborious and expensive, in particular for datasets with a large number of classes like ImageNet. An exception to this procedure is ImageNet-C (Hendrycks & Dietterich, 2019), a dataset created by applying common real-world corruptions at different levels of intensity to the (clean) ImageNet images. Inspired by this work, we introduce ImageNet-Cartoon and ImageNet-Drawing, two datasets constructed by converting ImageNet images into cartoons and colored pencil drawings, using a GAN framework (Wang & Yu, 2020) and simple image processing (Lu et al., 2012), respectively.},
 	author = {Tiago Salvador and Adam M. Oberman},
-	bibtex_show = {true},
 	booktitle = {ICML Shift Happens Workshop},
 	code = {https://github.com/oberman-lab/imagenet-shift},
 	html = {https://openreview.net/forum?id=YlAUXhjwaQt},
 	pdf = {https://openreview.net/pdf?id=YlAUXhjwaQt},
 	selected = {true},
+	slides = {ImageNetShiftSlides.pdf},
 	title = {ImageNet-Cartoon and ImageNet-Drawing: two domain shift datasets for ImageNet},
 	url = {https://openreview.net/forum?id=YlAUXhjwaQt},
 	year = {2022},
@@ -35,17 +38,18 @@
 @inproceedings{salvador2022faircal,
 	abbr = {ICLR},
 	abstract = {Benchmarking the robustness to distribution shifts traditionally relies on dataset collection which is typically laborious and expensive, in particular for datasets with a large number of classes like ImageNet. An exception to this procedure is ImageNet-C (Hendrycks & Dietterich, 2019), a dataset created by applying common real-world corruptions at different levels of intensity to the (clean) ImageNet images. Inspired by this work, we introduce ImageNet-Cartoon and ImageNet-Drawing, two datasets constructed by converting ImageNet images into cartoons and colored pencil drawings, using a GAN framework (Wang & Yu, 2020) and simple image processing (Lu et al., 2012), respectively.},
-	author = {Tiago Salvador and Stephanie Cairns and Vikram Voleti and Noah Marshall and Adam M. Oberman},
-	bibtex_show = {true},
+	author = {Tiago Salvador and Stephanie Cairns and Vikram Voleti and Noah Marshall and Adam Oberman},
 	booktitle = {International Conference on Learning Representations},
-	code = {https://github.com/tiagosalvador/faircal},
+	title = {FairCal: Fairness Calibration for Face Verification},
 	html = {https://openreview.net/forum?id=nRj0NcmSuxb},
 	pdf = {https://openreview.net/pdf?id=nRj0NcmSuxb},
 	selected = {true},
-	title = {FairCal: Fairness Calibration for Face Verification},
+	arxiv = {2106.03761},
+	poster = {FairCalPoster.pdf},
+	slides = {FairCalSlides.pdf},
+	code = {https://github.com/tiagosalvador/faircal},
 	url = {https://openreview.net/forum?id=nRj0NcmSuxb},
-	year = {2022},
-	bdsk-url-1 = {https://openreview.net/forum?id=nRj0NcmSuxb}}
+	year = {2022}}
 
 @article{salvador2021frustratingly,
 	abbr = {arXiv},
@@ -55,27 +59,28 @@
 	journal = {arXiv preprint arXiv: Arxiv-2106.03762},
 	pdf = {https://arxiv.org/pdf/2106.03762.pdf},
 	title = {Frustratingly Easy Uncertainty Estimation for Distribution Shift},
-	year = {2021}}
+	year = {2021},
+	arxiv = {2106.03762}
+	}
 
 @inproceedings{oberman2020Top1,
 	abbr = {ICML Workshop},
 	abstract = {While the accuracy of modern deep learning models has significantly improved in recent years, the ability of these models to generate uncertainty estimates has not progressed to the same degree. Uncertainty methods are designed to provide an estimate of class probabilities when predicting class assignment. While there are a number of proposed methods for estimating uncertainty, they all suffer from a lack of calibration: predicted probabilities can be off from empirical ones by
 a few percent or more. By restricting the scope of our predictions to only the probability of Top1 error, we can decrease the calibration error of existing methods to less than one percent. As a result, the scores of the methods also improve significantly over benchmarks.},
 	author = {Adam Oberman and Chris Finlay and Alexander Iannantuono and Tiago Salvador},
-	bibtex_show = {true},
 	booktitle = {ICML Workshop on Uncertainty & Robustness in Deep Learning (Spotlight Talk)},
 	code = {https://github.com/cfinlay/confident-nn},
 	pdf = {https://arxiv.org/pdf/1903.09215.pdf},
 	title = {Calibrated Top-1 Uncertainty estimates for classification by score based models},
 	url = {http://www.gatsby.ucl.ac.uk/~balaji/udl2020/accepted-papers/UDL2020-paper-014.pdf},
 	year = {2020},
-	bdsk-url-1 = {http://www.gatsby.ucl.ac.uk/~balaji/udl2020/accepted-papers/UDL2020-paper-014.pdf}}
+	arxiv = {1903.09215}
+	}
 
 @article{oberman2020visibility,
 	abbr = {JSC},
 	abstract = {In this article we consider the problem of finding the visibility set from a given point when the obstacles are represented as the level set of a given function. Although the visibility set can be computed efficiently by ray tracing, there are advantages to using a level set representation for the obstacles, and to characterizing the solution using a partial differential equation (PDE). A nonlocal PDE formulation was proposed in Tsai et al. (2004): in this article we propose a simpler PDE formulation, involving a nonlinear obstacle problem. We present a simple numerical scheme and show its convergence using the framework of Barles and Souganidis. Numerical examples in both two and three dimensions are presented.},
 	author = {Adam Oberman and Tiago Salvador},
-	bibtex_show = {true},
 	code = {https://github.com/tiagosalvador/visibility-pde},
 	doi = {10.1007/s10915-019-01106-x},
 	html = {https://doi.org/10.1007/s10915-019-01106-x},
@@ -88,13 +93,13 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	url = {https://doi.org/10.1007/s10915-019-01106-x},
 	volume = {82},
 	year = {2020},
+	arxiv = {1908.00578},
 	bdsk-url-1 = {https://doi.org/10.1007/s10915-019-01106-x}}
 
 @article{salvador2019simplified,
 	abbr = {JSC},
 	abstract = {We present a simplified version of the threshold dynamics algorithm given in Esedo{\=g}lu and Otto (2015). The new version still allows specifying N-choose-2 possibly distinct surface tensions and N-choose-2 possibly distinct mobilities for a network with N phases, but achieves this level of generality without the use of retardation functions. Instead, it employs linear combinations of Gaussians in the convolution step of the algorithm. Convolutions with only two distinct Gaussians is enough for the entire network, maintaining the efficiency of the original thresholding scheme. We discuss stability and convergence of the new algorithm, including some counterexamples in which convergence fails. The apparently convergent cases include unequal surface tensions given by the Read and Shockley model and its three dimensional extensions, along with equal mobilities, that are a very common choice in computational materials science.},
 	author = {Salvador, Tiago and Esedoglu, Selim},
-	bibtex_show = {true},
 	doi = {10.1007/s10915-018-0866-8},
 	html = {https://doi.org/10.1007/s10915-018-0866-8},
 	id = {Salvador2019},
@@ -107,13 +112,13 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	url = {https://doi.org/10.1007/s10915-018-0866-8},
 	volume = {79},
 	year = {2019},
+	arxiv = {1807.06764},
 	bdsk-url-1 = {https://doi.org/10.1007/s10915-018-0866-8}}
 
 @article{hamfeldt2018quadtree,
 	abbr = {JSC},
 	abstract = {We introduce generalised finite difference methods for solving fully nonlinear elliptic partial differential equations. Methods are based on piecewise Cartesian meshes augmented by additional points along the boundary. This allows for adaptive meshes and complicated geometries, while still ensuring consistency, monotonicity, and convergence. We describe an algorithm for efficiently computing the non-traditional finite difference stencils. We also present a strategy for computing formally higher-order convergent methods. Computational examples demonstrate the efficiency, accuracy, and flexibility of the methods.},
 	author = {Hamfeldt, Brittany Froese and Salvador, Tiago},
-	bibtex_show = {true},
 	code = {https://github.com/tiagosalvador/quadtrees-mesh},
 	doi = {10.1007/s10915-017-0586-5},
 	html = {https://doi.org/10.1007/s10915-018-0866-8},
@@ -127,13 +132,13 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	url = {https://doi.org/10.1007/s10915-017-0586-5},
 	volume = {75},
 	year = {2018},
+	arxiv = {1706.07741},
 	bdsk-url-1 = {https://doi.org/10.1007/s10915-017-0586-5}}
 
 @article{oberman2017affine,
 	abbr = {IMAJNA},
 	abstract = {{We study numerical methods for the nonlinear partial differential equation that governs the motion of level sets by affine curvature. We show that standard finite difference schemes are nonlinearly unstable. We build convergent finite difference schemes using the theory of viscosity solutions. We demonstrate that our approximate solutions capture the affine invariance and morphological properties of the evolution. Numerical experiments demonstrate the accuracy and stability of the discretization.}},
 	author = {Oberman, Adam M. and Salvador, Tiago},
-	bibtex_show = {true},
 	doi = {10.1093/imanum/drx045},
 	eprint = {https://academic.oup.com/imajna/article-pdf/38/4/1735/25956751/drx045.pdf},
 	html = {https://doi.org/10.1093/imanum/drx045},
@@ -143,17 +148,17 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	number = {4},
 	pages = {1735-1767},
 	pdf = {https://academic.oup.com/imajna/article-pdf/38/4/1735/25956751/drx045.pdf},
-	title = {{Numerical methods for motion of level sets by affine curvature}},
+	title = {Numerical methods for motion of level sets by affine curvature},
 	url = {https://doi.org/10.1093/imanum/drx045},
 	volume = {38},
 	year = {2018},
+	arxiv = {1610.08831},
 	bdsk-url-1 = {https://doi.org/10.1093/imanum/drx045}}
 
 @article{10.1093/imanum/drw007,
 	abbr = {IMAJNA},
 	abstract = {{The elliptic 2-Hessian equation is a fully nonlinear partial differential equation (PDE) that is related to intrinsic curvature for three-dimensional manifolds. We ntroduce two numerical methods for this PDE: the first is provably convergent to the viscosity solution and the second is more accurate and convergent in practice but lacks a proof. The PDE is elliptic on a restricted set of functions: a convexity-type constraint is needed for the ellipticity of the PDE operator. Solutions with both iscretizations are obtained using Newton's method. Computational results are presented on a number of exact solutions which range in regularity from mooth to nondifferentiable and in shape from convex to nonconvex.}},
 	author = {Froese, Brittany D. and Oberman, Adam M. and Salvador, Tiago},
-	bibtex_show = {true},
 	doi = {10.1093/imanum/drw007},
 	eprint = {https://academic.oup.com/imajna/article-pdf/37/1/209/9633750/drw007.pdf},
 	html = {https://doi.org/10.1093/imanum/drw007},
@@ -163,17 +168,17 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	number = {1},
 	pages = {209-236},
 	pdf = {https://academic.oup.com/imajna/article-pdf/37/1/209/9633750/drw007.pdf},
-	title = {{Numerical methods for the 2-Hessian elliptic partial differential equation}},
+	title = {Numerical methods for the 2-Hessian elliptic partial differential equation},
 	url = {https://doi.org/10.1093/imanum/drw007},
 	volume = {37},
 	year = {2017},
+	arxiv = {1502.04969},
 	bdsk-url-1 = {https://doi.org/10.1093/imanum/drw007}}
 
 @article{oberman2015filtered,
 	abbr = {JCP},
 	abstract = {We build a simple and general class of finite difference schemes for first order Hamilton--Jacobi (HJ) Partial Differential Equations. These filtered schemes are convergent to the unique viscosity solution of the equation. The schemes are accurate: we implement second, third and fourth order accurate schemes in one dimension and second order accurate schemes in two dimensions, indicating how to build higher order ones. They are also explicit, which means they can be solved using the fast sweeping method. The accuracy of the method is validated with computational results for the eikonal equation and other HJ equations in one and two dimensions, using filtered schemes made from standard centered differences, higher order upwinding and ENO interpolation.},
 	author = {Adam M. Oberman and Tiago Salvador},
-	bibtex_show = {true},
 	code = {https://github.com/tiagosalvador/filtered-schemes},
 	doi = {https://doi.org/10.1016/j.jcp.2014.12.039},
 	html = {https://www.sciencedirect.com/science/article/pii/S0021999114008560},
@@ -186,5 +191,6 @@ a few percent or more. By restricting the scope of our predictions to only the p
 	url = {https://www.sciencedirect.com/science/article/pii/S0021999114008560},
 	volume = {284},
 	year = {2015},
+	arxiv = {https://arxiv.org/pdf/1411.3205.pdf},
 	bdsk-url-1 = {https://www.sciencedirect.com/science/article/pii/S0021999114008560},
 	bdsk-url-2 = {https://doi.org/10.1016/j.jcp.2014.12.039}}

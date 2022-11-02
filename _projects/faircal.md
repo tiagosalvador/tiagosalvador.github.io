@@ -88,7 +88,7 @@ In the particular context of policing, <b>predictive equality</b> is considered 
 Work on bias mitigation for deep Face Verification models can be divided into two main camps:
 <ol>
   <li seq="(i)">methods that let a model learn less-biased representations during training, and</li>
-  <li seq="(ii)">post-processing approaches that attempt to remove bias \textit{after} a model is trained.</li>
+  <li seq="(ii)">post-processing approaches that attempt to remove bias <i>after</i> a model is trained.</li>
 </ol>
 
 Our work focus on (ii) post-hoc methods.

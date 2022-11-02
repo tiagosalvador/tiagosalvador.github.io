@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Tiago
-middle_name: 
+middle_name:
 last_name: Salvador
 email: tiago.saldanhasalvador@mcgill.ca
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
@@ -124,7 +124,7 @@ collections:
     permalink: /projects/:path/
 
 news_scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-news_limit: 5 # leave blank to include all the news in the `_news` folder
+news_limit: 6 # leave blank to include all the news in the `_news` folder
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
