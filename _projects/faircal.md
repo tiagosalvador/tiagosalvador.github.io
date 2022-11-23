@@ -74,7 +74,7 @@ $$
 \mathbb{P}_{(\boldsymbol{x}_1,\boldsymbol{x}_2) \sim \mathcal{G}_1}(\widehat{Y}=1\mid Y=0) = \mathbb{P}_{(\boldsymbol{x}_1,\boldsymbol{x}_2) \sim\mathcal{G}_2}(\widehat{Y}=1\mid Y=0)
 $$
 
-  <li seq="3)">Equal Opportunity, i.e., equal False Negative Rates across different subgroups:</li>
+  <li seq="3)"><b>Equal Opportunity</b>, i.e., equal False Negative Rates across different subgroups:</li>
 
 $$
 \mathbb{P}_{(\boldsymbol{x}_1,\boldsymbol{x}_2) \sim \mathcal{G}_1}(\widehat{Y}=0\mid Y=1) = \mathbb{P}_{(\boldsymbol{x}_1,\boldsymbol{x}_2) \sim \mathcal{G}_2}(\widehat{Y}=0\mid Y=1)
@@ -91,7 +91,7 @@ Work on bias mitigation for deep Face Verification models can be divided into tw
   <li seq="(ii)">post-processing approaches that attempt to remove bias <i>after</i> a model is trained.</li>
 </ol>
 
-Our work focus on (ii) post-hoc methods.
+Our work focuses on (ii) post-hoc methods.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-12 mt-3 mt-md-0">
@@ -139,7 +139,7 @@ For <b>FairCal</b> we chose Beta Calibration (Kull et al, 2017) as the post-hoc 
     
 ##### <u>Test stage</u>
 
-1. 1) Given an image pair ($$\boldsymbol{x}_1$$, $$\boldsymbol{x}_2$$), compute ($z_1$, $z_2$), and the cluster of each image feature: $$k_1$$ and $$k_2$$
+1. 1) Given an image pair ($$\boldsymbol{x}_1$$, $$\boldsymbol{x}_2$$), compute ($$z_1$$, $$z_2$$), and the cluster of each image feature: $$k_1$$ and $$k_2$$
 2. 2) The model's confidence $$c$$ in it being a genuine pair is:
 
 $$
